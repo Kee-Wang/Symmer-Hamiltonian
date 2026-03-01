@@ -1,0 +1,3 @@
+# Mark binary files
+*.png binary
+*.pdf binary

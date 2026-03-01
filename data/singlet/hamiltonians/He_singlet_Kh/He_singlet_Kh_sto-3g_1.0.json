@@ -1,0 +1,37 @@
+{
+  "hamiltonian": {
+    "II": -1.667820214453755,
+    "ZI": 0.7019459893849935,
+    "IZ": 0.7019459893849935,
+    "ZZ": 0.26392823568376805
+  },
+  "data": {
+    "molecule_id": "He_singlet_Kh",
+    "qubit_encoding": "JW",
+    "basis": "sto-3g",
+    "charge": 0,
+    "multiplicity": 1,
+    "geometry": "He 0.0000000000 0.0000000000 0.0000000000",
+    "n_qubits": 2,
+    "alpha": 1.0,
+    "energies": {
+      "HF": -2.807783957539974,
+      "MP2": -2.807783957539974,
+      "CISD": -2.807783957539974,
+      "CCSD": -2.807783957539974,
+      "FCI": -2.8077839575399737
+    },
+    "converged": {
+      "HF": true,
+      "MP2": false,
+      "CISD": true,
+      "CCSD": true,
+      "FCI": true
+    },
+    "fci_spin_matches_target": true,
+    "fci_multiplicity": 1.0,
+    "hf_method_fallback": "standard",
+    "generation_time_s": 0.021,
+    "timestamp": "2026-02-25T23:47:56.431294+00:00"
+  }
+}
