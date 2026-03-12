@@ -6,7 +6,7 @@ Single-atom species are shown as energy tables (one geometry). Multi-atom specie
 
 ---
 
-## 1. Single-Atom Energies (29 species)
+## 1. Single-Atom Energies (29 entries)
 
 | Species | Basis | Qubits | HF (Ha) | MP2 (Ha) | CCSD (Ha) | FCI (Ha) |
 |---------|-------|-------:|--------:|---------:|---------:|---------:|

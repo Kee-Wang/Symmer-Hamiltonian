@@ -8,8 +8,8 @@ A curated database of molecular electronic Hamiltonians in [Symmer](https://gith
 
 | Metric | Value |
 |--------|-------|
-| Species | 190 (34 single-atom, 82 diatomic, 74 polyatomic) |
-| Hamiltonians | 1,594 |
+| Species | 135 unique (16 monoatomic, 50 diatomic, 69 polyatomic) |
+| Hamiltonians | 1,594 across 190 (molecule, basis-set) combinations |
 | Spin partition | Singlet ($2S+1 = 1$) |
 | Qubit range (stored)  | 2–24 |
 | Qubit range (tapered) | 1–20 |

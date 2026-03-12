@@ -15,11 +15,11 @@
 
 <h2 id="introduction">1. Introduction</h2>
 
-This report documents a database of Jordan-Wigner-encoded molecular electronic Hamiltonians for quantum computing research. The dataset covers **190** species across **1,594** Hamiltonians in the singlet ($2S+1 = 1$) spin partition, stored in the native [Symmer](https://github.com/UCL-CCS/symmer) `PauliwordOp` format.
+This report documents a database of Jordan-Wigner-encoded molecular electronic Hamiltonians for quantum computing research. The dataset covers **135** unique species across **1,594** Hamiltonians in **190** (molecule, basis-set) combinations in the singlet ($2S+1 = 1$) spin partition, stored in the native [Symmer](https://github.com/UCL-CCS/symmer) `PauliwordOp` format.
 
 ![Dataset Overview](figures/dataset_overview.png)
 
-Individual dissociation curves for all 156 multi-atom species are in the [Plot Gallery](figures/plot_gallery.md).
+Individual dissociation curves for all 156 multi-atom (molecule, basis-set) combinations are in the [Plot Gallery](figures/plot_gallery.md).
 
 Total generation time: ~62 min.
 
@@ -62,11 +62,11 @@ For dissociation curves, geometries are processed in order of increasing distanc
 
 <h2 id="hamiltonian-index">3. Hamiltonian Index</h2>
 
-All 190 species entries in alphabetical order. Each row is one (molecule_id, basis) pair.
+All 190 (molecule, basis-set) entries in alphabetical order. Each row is one (molecule_id, basis) pair.
 
 - **Molecule** column: sequential index 1–190 (alphabetical by molecule ID, then basis).
 - **Hamiltonian** column: single number for single-atom species (1 geometry); range {*start*,...,*end*} for multi-atom species (10 $\alpha$ points).
-- **†** marks species where CISD energy falls below FCI by more than 1 μHa at one or more $\alpha$ points (variational bounds violation, 40 points across 10 species).
+- **†** marks species where CISD energy falls below FCI by more than 1 μHa at one or more $\alpha$ points (variational bounds violation, 40 points across 10 entries).
 
 > ❗ **Caution:** Since FCI is exact within the basis set, CISD < FCI indicates the FCI eigensolver did not fully converge — the reported FCI energies at those points should be treated as **unreliable**.
 
@@ -278,4 +278,4 @@ All 190 species entries in alphabetical order. Each row is one (molecule_id, bas
 
 ---
 
-*End of data report -- 190 species, 1,594 Hamiltonians.*
+*End of data report -- 135 species, 190 (molecule, basis-set) combinations, 1,594 Hamiltonians.*
