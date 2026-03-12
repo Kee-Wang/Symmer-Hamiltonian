@@ -117,7 +117,6 @@ Symmer-Hamiltonian/
 └── data/
     └── singlet/
         ├── species_list.json           Molecule inventory & provenance
-        ├── generation_summary.json     Pipeline run metadata
         └── hamiltonians/               1,594 JSON files across 135 species dirs
             ├── H2_singlet_Dooh/
             │   ├── H2_singlet_Dooh_sto-3g_0.5.json
