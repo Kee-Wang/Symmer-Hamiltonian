@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Editors
+.idea/
+.obsidian/
+.vscode/
+
+# macOS
+.DS_Store
+._*
+
+# Environment
+.env
+*.env

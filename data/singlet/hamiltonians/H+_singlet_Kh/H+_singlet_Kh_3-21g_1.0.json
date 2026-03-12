@@ -1,0 +1,125 @@
+{
+  "hamiltonian": {
+    "IIII": 0.9862756534740822,
+    "IIZI": -0.7483410532425614,
+    "IIIZ": -0.7483410532425614,
+    "ZIII": -0.19279171202780132,
+    "IZII": -0.19279171202780132,
+    "IIZZ": 0.17420334202554352,
+    "IZZI": 0.16026626916927547,
+    "ZIIZ": 0.16026626916927547,
+    "ZZII": 0.15999549839544208,
+    "IZIZ": 0.12062924915355332,
+    "ZIZI": 0.12062924915355332,
+    "YZYI": 0.10305167144848171,
+    "XZXI": 0.10305167144848171,
+    "IYZY": 0.1030516714484817,
+    "IXZX": 0.1030516714484817,
+    "IXIX": -0.057084339361184684,
+    "IYIY": -0.057084339361184684,
+    "XZXZ": -0.057084339361184684,
+    "YZYZ": -0.057084339361184684,
+    "ZXZX": -0.045967332087297016,
+    "ZYZY": -0.045967332087297016,
+    "XIXI": -0.045967332087297016,
+    "YIYI": -0.045967332087297016,
+    "YYXX": -0.03963702001572214,
+    "YXXY": 0.03963702001572214,
+    "XYYX": 0.03963702001572214,
+    "XXYY": -0.03963702001572214
+  },
+  "data": {
+    "molecule_id": "H+_singlet_Kh",
+    "qubit_encoding": "JW",
+    "unit": "Angstrom",
+    "basis": "3-21g",
+    "charge": 1,
+    "multiplicity": 1,
+    "spin": 0,
+    "geometry": "H 0.0000000000 0.0000000000 0.0000000000",
+    "n_qubits": 4,
+    "n_particles": {
+      "total": 0,
+      "alpha": 0,
+      "beta": 0
+    },
+    "hf_array": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "hf_method": "pyscf.scf.hf_symm.SymAdaptedRHF",
+    "convergence_threshold": 1e-06,
+    "point_group": {
+      "groupname": "SO3",
+      "topgroup": "SO3"
+    },
+    "alpha": 1.0,
+    "calculated_properties": {
+      "HF": {
+        "energy": 0.0,
+        "converged": true
+      },
+      "MP2": {
+        "energy": null,
+        "converged": null
+      },
+      "CISD": {
+        "energy": null,
+        "converged": false
+      },
+      "CCSD": {
+        "energy": null,
+        "converged": false
+      },
+      "FCI": {
+        "energy": 0.0,
+        "converged": true,
+        "spin_matches_target": true,
+        "multiplicity": 1.0,
+        "oscillatory_converged": false,
+        "oscillation_energy_change": null
+      }
+    },
+    "auxiliary_operators": {
+      "number_operator": {
+        "IIII": 2.0,
+        "ZIII": -0.5,
+        "IZII": -0.5,
+        "IIZI": -0.5,
+        "IIIZ": -0.5
+      },
+      "N_alpha": {
+        "IIII": 1.0,
+        "ZIII": -0.5,
+        "IIZI": -0.5
+      },
+      "N_beta": {
+        "IIII": 1.0,
+        "IZII": -0.5,
+        "IIIZ": -0.5
+      },
+      "S^2_operator": {
+        "IIII": 0.75,
+        "ZZII": -0.375,
+        "IIZZ": -0.375,
+        "YXYX": 0.125,
+        "YXXY": -0.125,
+        "XXYY": 0.125,
+        "XXXX": 0.125,
+        "YYYY": 0.125,
+        "YYXX": 0.125,
+        "XYYX": -0.125,
+        "XYXY": 0.125,
+        "ZIZI": 0.125,
+        "ZIIZ": -0.125,
+        "IZZI": -0.125,
+        "IZIZ": 0.125
+      }
+    },
+    "hf_method_fallback": "standard",
+    "generation_time_s": 0.363,
+    "timestamp": "2026-03-10T21:51:31.813069+00:00"
+  }
+}

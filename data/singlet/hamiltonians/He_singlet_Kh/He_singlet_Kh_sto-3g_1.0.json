@@ -1,0 +1,83 @@
+{
+  "hamiltonian": {
+    "II": -1.667820214453755,
+    "ZI": 0.7019459893849935,
+    "IZ": 0.7019459893849935,
+    "ZZ": 0.26392823568376805
+  },
+  "data": {
+    "molecule_id": "He_singlet_Kh",
+    "qubit_encoding": "JW",
+    "unit": "Angstrom",
+    "basis": "sto-3g",
+    "charge": 0,
+    "multiplicity": 1,
+    "spin": 0,
+    "geometry": "He 0.0000000000 0.0000000000 0.0000000000",
+    "n_qubits": 2,
+    "n_particles": {
+      "total": 2,
+      "alpha": 1,
+      "beta": 1
+    },
+    "hf_array": [
+      1,
+      1
+    ],
+    "hf_method": "pyscf.scf.hf_symm.SymAdaptedRHF",
+    "convergence_threshold": 1e-06,
+    "point_group": {
+      "groupname": "SO3",
+      "topgroup": "SO3"
+    },
+    "alpha": 1.0,
+    "calculated_properties": {
+      "HF": {
+        "energy": -2.807783957539974,
+        "converged": true
+      },
+      "MP2": {
+        "energy": -2.807783957539974,
+        "converged": null
+      },
+      "CISD": {
+        "energy": -2.807783957539974,
+        "converged": true
+      },
+      "CCSD": {
+        "energy": -2.807783957539974,
+        "converged": true
+      },
+      "FCI": {
+        "energy": -2.8077839575399737,
+        "converged": true,
+        "spin_matches_target": true,
+        "multiplicity": 1.0,
+        "oscillatory_converged": false,
+        "oscillation_energy_change": null
+      }
+    },
+    "auxiliary_operators": {
+      "number_operator": {
+        "II": 1.0,
+        "ZI": -0.5,
+        "IZ": -0.5
+      },
+      "N_alpha": {
+        "II": 0.5,
+        "ZI": -0.5
+      },
+      "N_beta": {
+        "II": 0.5,
+        "IZ": -0.5
+      },
+      "S^2_operator": {
+        "II": 0.375,
+        "ZZ": -0.375
+      }
+    },
+    "hf_method_fallback": "standard",
+    "generation_time_s": 1.035,
+    "timestamp": "2026-03-10T21:08:10.496621+00:00"
+  }
+}
