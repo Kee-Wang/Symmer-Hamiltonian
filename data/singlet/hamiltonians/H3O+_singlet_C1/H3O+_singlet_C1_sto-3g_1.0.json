@@ -2980,55 +2980,7 @@
         "IYZZZZZZZYIXZZZX": 2.3580410361345653e-08,
         "IXZZZZZZZXIYZZZY": 2.3580410361345653e-08,
         "XZZZZZZZXIYZZZYI": 2.3580410361345653e-08,
-        "YZZZZZZZYIXZZZXI": 2.3580410361345653e-08,
-        "XZZZZZZZYIYZZZYI": [
-            0.0,
-            -1.7718399480505735e-08
-        ],
-        "IXZZZZZZZYIYZZZY": [
-            0.0,
-            -1.7718399480505735e-08
-        ],
-        "YZZZZZZZXIXZZZXI": [
-            0.0,
-            1.7718399480505735e-08
-        ],
-        "YZZZZZZZYIYZZZXI": [
-            0.0,
-            1.7718399480505735e-08
-        ],
-        "XZZZZZZZXIXZZZYI": [
-            0.0,
-            -1.7718399480505735e-08
-        ],
-        "IXZZZZZZZXIXZZZY": [
-            0.0,
-            -1.7718399480505735e-08
-        ],
-        "IYZZZZZZZXIXZZZX": [
-            0.0,
-            1.7718399480505735e-08
-        ],
-        "IYZZZZZZZYIYZZZX": [
-            0.0,
-            1.7718399480505735e-08
-        ],
-        "XZXIIIIIIIYZZZXI": [
-            0.0,
-            -1.4983909501736536e-08
-        ],
-        "IXZXIIIIIIIYZZZX": [
-            0.0,
-            -1.4983909501736536e-08
-        ],
-        "IYZYIIIIIIIXZZZY": [
-            0.0,
-            1.4983909501736536e-08
-        ],
-        "YZYIIIIIIIXZZZYI": [
-            0.0,
-            1.4983909501736536e-08
-        ]
+        "YZZZZZZZYIXZZZXI": 2.3580410361345653e-08
     },
     "data": {
         "molecule_id": "H3O+_singlet_C1",

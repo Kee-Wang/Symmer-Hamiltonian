@@ -1893,78 +1893,14 @@
         "IIXZXIYZZZYIIIII": 3.945085492785855e-08,
         "IIIYZYIXZZZXIIII": 3.945085492785855e-08,
         "IIYZYIXZZZXIIIII": 3.945085492785855e-08,
-        "YZZZZZZZIZZZXIII": [
-            0.0,
-            -2.3206984525357083e-08
-        ],
-        "IYZZZZZZZIZZZXII": [
-            0.0,
-            -2.3206984525357083e-08
-        ],
-        "IXZZZZZZZIZZZYII": [
-            0.0,
-            2.3206984525357083e-08
-        ],
-        "XZZZZZZZIZZZYIII": [
-            0.0,
-            2.3206984525357083e-08
-        ],
         "YZXIIIXZYIIIIIII": 1.838041541036586e-08,
-        "XZXIIIXZYIIIIIII": [
-            0.0,
-            -1.838041541036586e-08
-        ],
-        "YZXIIIXZXIIIIIII": [
-            0.0,
-            1.838041541036586e-08
-        ],
         "XZYIIIYZXIIIIIII": 1.838041541036586e-08,
-        "YZYIIIYZXIIIIIII": [
-            0.0,
-            1.838041541036586e-08
-        ],
-        "XZYIIIYZYIIIIIII": [
-            0.0,
-            -1.838041541036586e-08
-        ],
-        "IXZXIIIXZYIIIIII": [
-            0.0,
-            -1.838041541036586e-08
-        ],
         "IYZXIIIXZYIIIIII": 1.838041541036586e-08,
-        "IXZYIIIYZYIIIIII": [
-            0.0,
-            -1.838041541036586e-08
-        ],
-        "IYZYIIIYZXIIIIII": [
-            0.0,
-            1.838041541036586e-08
-        ],
         "IXZYIIIYZXIIIIII": 1.838041541036586e-08,
-        "IYZXIIIXZXIIIIII": [
-            0.0,
-            1.838041541036586e-08
-        ],
-        "YZXIIIYZYIIIIIII": [
-            0.0,
-            1.8303099440399177e-08
-        ],
         "YZXIIIYZXIIIIIII": -1.8303099440399177e-08,
         "IYZXIIIYZXIIIIII": -1.8303099440399177e-08,
-        "IXZYIIIXZXIIIIII": [
-            0.0,
-            -1.8303099440399177e-08
-        ],
-        "IYZXIIIYZYIIIIII": [
-            0.0,
-            1.8303099440399177e-08
-        ],
         "IXZYIIIXZYIIIIII": -1.8303099440399177e-08,
-        "XZYIIIXZYIIIIIII": -1.8303099440399177e-08,
-        "XZYIIIXZXIIIIIII": [
-            0.0,
-            -1.8303099440399177e-08
-        ]
+        "XZYIIIXZYIIIIIII": -1.8303099440399177e-08
     },
     "data": {
         "molecule_id": "CH3+_singlet_D3h",

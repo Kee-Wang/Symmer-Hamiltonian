@@ -12057,23 +12057,7 @@
         "IYYIYZZZZYIIIIIIIIIIII": 9.790629154381659e-08,
         "IXXIXZZZZXIIIIIIIIIIII": 9.790629154381659e-08,
         "IXYIYZZZZXIIIIIIIIIIII": 9.790629154381659e-08,
-        "YZZYIYZZYIIIIIIIIIIIII": 9.790629154381659e-08,
-        "IYZXIXZZZXIIIIIIIIIIII": [
-            0.0,
-            1.2238286442977117e-08
-        ],
-        "XZYIYZZZYIIIIIIIIIIIII": [
-            0.0,
-            -1.2238286442977117e-08
-        ],
-        "YZXIXZZZXIIIIIIIIIIIII": [
-            0.0,
-            1.2238286442977117e-08
-        ],
-        "IXZYIYZZZYIIIIIIIIIIII": [
-            0.0,
-            -1.2238286442977117e-08
-        ]
+        "YZZYIYZZYIIIIIIIIIIIII": 9.790629154381659e-08
     },
     "data": {
         "molecule_id": "CHF_singlet_Cs",

@@ -11946,38 +11946,6 @@
         "IXZXIXZZZXIIIIIIIIIIII": -3.9027975280495906e-08,
         "YZYIYZZZYIIIIIIIIIIIII": -3.9027975280495906e-08,
         "XZXIXZZZXIIIIIIIIIIIII": -3.9027975280495906e-08,
-        "XZYIXZZZZZZZZZZZZZZZXI": [
-            0.0,
-            -1.9552286607896545e-08
-        ],
-        "IXZYIXZZZZZZZZZZZZZZZX": [
-            0.0,
-            -1.9552286607896545e-08
-        ],
-        "IYZXIYZZZZZZZZZZZZZZZY": [
-            0.0,
-            1.9552286607896545e-08
-        ],
-        "IYZYIXZZZZZZZZZZZZZZZY": [
-            0.0,
-            -1.9552286607896545e-08
-        ],
-        "YZYIXZZZZZZZZZZZZZZZYI": [
-            0.0,
-            -1.9552286607896545e-08
-        ],
-        "YZXIYZZZZZZZZZZZZZZZYI": [
-            0.0,
-            1.9552286607896545e-08
-        ],
-        "IXZXIYZZZZZZZZZZZZZZZX": [
-            0.0,
-            1.9552286607896545e-08
-        ],
-        "XZXIYZZZZZZZZZZZZZZZXI": [
-            0.0,
-            1.9552286607896545e-08
-        ],
         "IXZYIXZZZZZZZZZZZZZZZY": 1.955228660789627e-08,
         "XZYIXZZZZZZZZZZZZZZZYI": 1.955228660789627e-08,
         "IYZXIYZZZZZZZZZZZZZZZX": 1.955228660789627e-08,
@@ -11985,87 +11953,7 @@
         "YZXIYZZZXIIIIIIIIIIIII": -1.827679868363969e-08,
         "XZYIXZZZYIIIIIIIIIIIII": -1.827679868363969e-08,
         "IYZXIYZZZXIIIIIIIIIIII": -1.827679868363969e-08,
-        "IXZYIXZZZYIIIIIIIIIIII": -1.827679868363969e-08,
-        "XZYIXZZZZZZZXIIIIIIIII": [
-            0.0,
-            1.4613646503338902e-08
-        ],
-        "YZXIYZZZZZZZYIIIIIIIII": [
-            0.0,
-            -1.4613646503338902e-08
-        ],
-        "IYZXIYZZZZZZZYIIIIIIII": [
-            0.0,
-            -1.4613646503338902e-08
-        ],
-        "IXZYIXZZZZZZZXIIIIIIII": [
-            0.0,
-            1.4613646503338902e-08
-        ],
-        "XZXIYZZZXIIIIIIIIIIIII": [
-            0.0,
-            -1.308900453442565e-08
-        ],
-        "XZYIXZZZXIIIIIIIIIIIII": [
-            0.0,
-            1.308900453442565e-08
-        ],
-        "YZXIYZZZYIIIIIIIIIIIII": [
-            0.0,
-            -1.308900453442565e-08
-        ],
-        "XZYIYZZZYIIIIIIIIIIIII": [
-            0.0,
-            -1.308900453442565e-08
-        ],
-        "XZXIXZZZYIIIIIIIIIIIII": [
-            0.0,
-            -1.308900453442565e-08
-        ],
-        "YZYIXZZZYIIIIIIIIIIIII": [
-            0.0,
-            1.308900453442565e-08
-        ],
-        "IXZXIYZZZXIIIIIIIIIIII": [
-            0.0,
-            -1.308900453442565e-08
-        ],
-        "IYZYIYZZZXIIIIIIIIIIII": [
-            0.0,
-            1.308900453442565e-08
-        ],
-        "IYZXIXZZZXIIIIIIIIIIII": [
-            0.0,
-            1.308900453442565e-08
-        ],
-        "IXZYIXZZZXIIIIIIIIIIII": [
-            0.0,
-            1.308900453442565e-08
-        ],
-        "IYZXIYZZZYIIIIIIIIIIII": [
-            0.0,
-            -1.308900453442565e-08
-        ],
-        "IXZYIYZZZYIIIIIIIIIIII": [
-            0.0,
-            -1.308900453442565e-08
-        ],
-        "IXZXIXZZZYIIIIIIIIIIII": [
-            0.0,
-            -1.308900453442565e-08
-        ],
-        "IYZYIXZZZYIIIIIIIIIIII": [
-            0.0,
-            1.308900453442565e-08
-        ],
-        "YZXIXZZZXIIIIIIIIIIIII": [
-            0.0,
-            1.308900453442565e-08
-        ],
-        "YZYIYZZZXIIIIIIIIIIIII": [
-            0.0,
-            1.308900453442565e-08
-        ]
+        "IXZYIXZZZYIIIIIIIIIIII": -1.827679868363969e-08
     },
     "data": {
         "molecule_id": "FHO_singlet_Cs",

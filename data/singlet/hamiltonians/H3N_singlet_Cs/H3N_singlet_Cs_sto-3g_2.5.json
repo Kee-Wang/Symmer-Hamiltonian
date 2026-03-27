@@ -2284,23 +2284,7 @@
         "IIIYZZZZZZZZZZZY": -2.732331482713891e-08,
         "IIIXZZZZZZZZZZZX": -2.732331482713891e-08,
         "IIYZZZZZZZZZZZYI": -2.7323314826942398e-08,
-        "IIXZZZZZZZZZZZXI": -2.7323314826942398e-08,
-        "IIIIIIIIIXZYIIII": [
-            0.0,
-            1.0871762559866785e-08
-        ],
-        "IIIIIIIIIYZXIIII": [
-            0.0,
-            -1.0871762559866785e-08
-        ],
-        "IIIIIIIIYZXIIIII": [
-            0.0,
-            -1.0871762559216264e-08
-        ],
-        "IIIIIIIIXZYIIIII": [
-            0.0,
-            1.0871762559216264e-08
-        ]
+        "IIXZZZZZZZZZZZXI": -2.7323314826942398e-08
     },
     "data": {
         "molecule_id": "H3N_singlet_Cs",

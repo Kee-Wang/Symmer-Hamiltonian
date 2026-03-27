@@ -1068,23 +1068,7 @@
         "IIIIIIIIXZZZXIII": -7.872246118758765e-08,
         "IIIIIIIIYZZZYIII": -7.872246118758765e-08,
         "IIIIIIIIIXZZZXII": -7.872246118758728e-08,
-        "IIIIIIIIIYZZZYII": -7.872246118758728e-08,
-        "YZZZZZYIYZZZXIII": [
-            0.0,
-            1.1217941955208191e-08
-        ],
-        "XZZZZZXIXZZZYIII": [
-            0.0,
-            -1.1217941955208191e-08
-        ],
-        "IYZZZZZYIYZZZXII": [
-            0.0,
-            1.1217941955208191e-08
-        ],
-        "IXZZZZZXIXZZZYII": [
-            0.0,
-            -1.1217941955208191e-08
-        ]
+        "IIIIIIIIIYZZZYII": -7.872246118758728e-08
     },
     "data": {
         "molecule_id": "H4_singlet_D4h",

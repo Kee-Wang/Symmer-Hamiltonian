@@ -9060,39 +9060,7 @@
         "IYZXIXZYIIIIIIIIIIIIIIII": 2.7111319842837457e-08,
         "XZYIYZXIIIIIIIIIIIIIIIII": 2.7111319842837457e-08,
         "YZXIXZYIIIIIIIIIIIIIIIII": 2.7111319842837457e-08,
-        "IXZYIYZXIIIIIIIIIIIIIIII": 2.7111319842837457e-08,
-        "YZYIXZYIIIIIIIIIIIIIIIII": [
-            0.0,
-            2.4517088079651146e-08
-        ],
-        "IYZYIXZYIIIIIIIIIIIIIIII": [
-            0.0,
-            2.4517088079651146e-08
-        ],
-        "IXZXIYZXIIIIIIIIIIIIIIII": [
-            0.0,
-            -2.4517088079651146e-08
-        ],
-        "XZXIYZXIIIIIIIIIIIIIIIII": [
-            0.0,
-            -2.4517088079651146e-08
-        ],
-        "IXZXIIIYZZZZZZZXIIIIIIII": [
-            0.0,
-            1.1163774965292407e-08
-        ],
-        "XZXIIIYZZZZZZZXIIIIIIIII": [
-            0.0,
-            1.1163774965292407e-08
-        ],
-        "YZYIIIXZZZZZZZYIIIIIIIII": [
-            0.0,
-            -1.1163774965292407e-08
-        ],
-        "IYZYIIIXZZZZZZZYIIIIIIII": [
-            0.0,
-            -1.1163774965292407e-08
-        ]
+        "IXZYIYZXIIIIIIIIIIIIIIII": 2.7111319842837457e-08
     },
     "data": {
         "molecule_id": "CH2N+_singlet_C2v_2",

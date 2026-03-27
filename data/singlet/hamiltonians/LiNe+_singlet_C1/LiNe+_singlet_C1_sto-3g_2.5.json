@@ -3867,144 +3867,16 @@
         "IIIXZZZZZXIIIIIYZZZY": -5.3348519303086374e-08,
         "IIIYZZZZZYIIIIIXZZZX": -5.3348519303086374e-08,
         "IIYZZZZZYIIIIIXZZZXI": -5.3348519303086374e-08,
-        "XZZZZZZZZZXIYZZZXIII": [
-            0.0,
-            3.4584322678970815e-08
-        ],
-        "IYZZZZZZZZZYIXZZZYII": [
-            0.0,
-            -3.4584322678970815e-08
-        ],
-        "IXZZZZZZZZZXIYZZZXII": [
-            0.0,
-            3.4584322678970815e-08
-        ],
-        "IYZZZZZZZYIIIXZYIIII": [
-            0.0,
-            -3.4584322678970815e-08
-        ],
-        "IXZZZZZZZXIIIYZXIIII": [
-            0.0,
-            3.4584322678970815e-08
-        ],
-        "YZZZZZZZZZYIXZZZYIII": [
-            0.0,
-            -3.4584322678970815e-08
-        ],
-        "YZZZZZZZYIIIXZYIIIII": [
-            0.0,
-            -3.4584322678970815e-08
-        ],
-        "XZZZZZZZXIIIYZXIIIII": [
-            0.0,
-            3.4584322678970815e-08
-        ],
         "XZXIIIIIIIIIYZZZZZYI": 3.0120383977901325e-08,
         "YZYIIIIIIIIIXZZZZZXI": 3.0120383977901325e-08,
         "IXZXIIIIIIIIIYZZZZZY": 3.0120383977901325e-08,
         "IYZYIIIIIIIIIXZZZZZX": 3.0120383977901325e-08,
-        "IIIXZZZYIXZZZZZXIIII": [
-            0.0,
-            -2.6019477569912804e-08
-        ],
-        "IIIYZZZXIYZZZZZYIIII": [
-            0.0,
-            2.6019477569912804e-08
-        ],
-        "IIXZZZYIXZZZZZXIIIII": [
-            0.0,
-            -2.6019477569912804e-08
-        ],
-        "IIYZZZXIIIYZZZZZYIII": [
-            0.0,
-            2.6019477569912804e-08
-        ],
-        "IIYZZZXIYZZZZZYIIIII": [
-            0.0,
-            2.6019477569912804e-08
-        ],
-        "IIIXZZZYIIIXZZZZZXII": [
-            0.0,
-            -2.6019477569912804e-08
-        ],
-        "IIIYZZZXIIIYZZZZZYII": [
-            0.0,
-            2.6019477569912804e-08
-        ],
-        "IIXZZZYIIIXZZZZZXIII": [
-            0.0,
-            -2.6019477569912804e-08
-        ],
         "IIIYZZZZZXIIIIIYZZZX": 1.1640780223344947e-08,
-        "IIIXZZZZZZZYIIIIIXZX": [
-            0.0,
-            1.1640780223344947e-08
-        ],
-        "IIIXZZZZZZZXIIIIIYZX": [
-            0.0,
-            -1.1640780223344947e-08
-        ],
         "IIIYZZZZZZZXIIIIIYZX": 1.1640780223344947e-08,
         "IIIXZZZZZYIIIIIXZZZY": 1.1640780223344947e-08,
-        "IIIYZZZZZYIIIIIXZZZY": [
-            0.0,
-            1.1640780223344947e-08
-        ],
-        "IIIYZZZZZXIIIIIYZZZY": [
-            0.0,
-            -1.1640780223344947e-08
-        ],
-        "IIIXZZZZZYIIIIIXZZZX": [
-            0.0,
-            1.1640780223344947e-08
-        ],
-        "IIIXZZZZZXIIIIIYZZZX": [
-            0.0,
-            -1.1640780223344947e-08
-        ],
-        "IIIYZZZZZZZXIIIIIYZY": [
-            0.0,
-            -1.1640780223344947e-08
-        ],
-        "IIYZZZZZXIIIIIYZZZYI": [
-            0.0,
-            -1.1640780223344947e-08
-        ],
-        "IIYZZZZZZZYIIIIIXZYI": [
-            0.0,
-            1.1640780223344947e-08
-        ],
-        "IIYZZZZZZZXIIIIIYZYI": [
-            0.0,
-            -1.1640780223344947e-08
-        ],
-        "IIXZZZZZZZYIIIIIXZXI": [
-            0.0,
-            1.1640780223344947e-08
-        ],
-        "IIXZZZZZZZXIIIIIYZXI": [
-            0.0,
-            -1.1640780223344947e-08
-        ],
         "IIYZZZZZZZXIIIIIYZXI": 1.1640780223344947e-08,
         "IIXZZZZZYIIIIIXZZZYI": 1.1640780223344947e-08,
-        "IIYZZZZZYIIIIIXZZZYI": [
-            0.0,
-            1.1640780223344947e-08
-        ],
-        "IIXZZZZZYIIIIIXZZZXI": [
-            0.0,
-            1.1640780223344947e-08
-        ],
-        "IIXZZZZZXIIIIIYZZZXI": [
-            0.0,
-            -1.1640780223344947e-08
-        ],
         "IIYZZZZZXIIIIIYZZZXI": 1.1640780223344947e-08,
-        "IIIYZZZZZZZYIIIIIXZY": [
-            0.0,
-            1.1640780223344947e-08
-        ],
         "IIXZZZZZZZYIIIIIXZYI": 1.1640780223344947e-08,
         "IIIXZZZZZZZYIIIIIXZY": 1.1640780223344947e-08
     },

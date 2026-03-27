@@ -6082,98 +6082,10 @@
         "IYZZZZZYIYZZZZZZZZZYII": 2.5520829651266768e-08,
         "IXZZZZZXIXZZZZZZZZZXII": 2.5520829651266768e-08,
         "XZZZZZXIXZZZZZZZZZXIII": 2.5520829651266768e-08,
-        "IXZZZYIIIYZZZZZZZYIIII": [
-            0.0,
-            -2.5453447648181104e-08
-        ],
-        "IYZZZXIIIXZZZZZZZXIIII": [
-            0.0,
-            2.5453447648181104e-08
-        ],
-        "YZZZXIIIXZZZZZZZXIIIII": [
-            0.0,
-            2.5453447648181104e-08
-        ],
-        "XZZZYIIIYZZZZZZZYIIIII": [
-            0.0,
-            -2.5453447648181104e-08
-        ],
-        "IYZXIIIIIIIXZZZZZZZZZX": [
-            0.0,
-            1.7766157896183502e-08
-        ],
-        "IYZYIIIIIIIYZZZZZZZZZX": [
-            0.0,
-            1.7766157896183502e-08
-        ],
-        "YZYIIIIIIIYZZZZZZZZZXI": [
-            0.0,
-            1.7766157896183502e-08
-        ],
-        "YZXIIIIIIIXZZZZZZZZZXI": [
-            0.0,
-            1.7766157896183502e-08
-        ],
-        "XZYIIIIIIIYZZZZZZZZZYI": [
-            0.0,
-            -1.7766157896183502e-08
-        ],
-        "XZXIIIIIIIXZZZZZZZZZYI": [
-            0.0,
-            -1.7766157896183502e-08
-        ],
-        "IXZXIIIIIIIXZZZZZZZZZY": [
-            0.0,
-            -1.7766157896183502e-08
-        ],
-        "IXZYIIIIIIIYZZZZZZZZZY": [
-            0.0,
-            -1.7766157896183502e-08
-        ],
         "IYZZZZZZZYIIIIIIIZIIII": 1.5296977920616096e-08,
         "IXZZZZZZZXIIIIIIIZIIII": 1.5296977920616096e-08,
         "YZZZZZZZYIIIIIIIZIIIII": 1.5296977920616096e-08,
-        "XZZZZZZZXIIIIIIIZIIIII": 1.5296977920616096e-08,
-        "IYZZZZZZZXIIIIIIIIIIII": [
-            0.0,
-            -1.3110839166244883e-08
-        ],
-        "IXZZZZZZZYIIIIIIIIIIII": [
-            0.0,
-            1.3110839166244883e-08
-        ],
-        "IYZZZZZZZXIIIIIIIIIZII": [
-            0.0,
-            1.3110839166243852e-08
-        ],
-        "IXZZZZZZZYIIIIIIIIIZII": [
-            0.0,
-            -1.3110839166243852e-08
-        ],
-        "YZZZZZZZXIIIIIIIIIZIII": [
-            0.0,
-            1.3110839166243852e-08
-        ],
-        "XZZZZZZZYIIIIIIIIIZIII": [
-            0.0,
-            -1.3110839166243852e-08
-        ],
-        "IIIXZZZYIYZZZZZZZZZYII": [
-            0.0,
-            1.0463943629769769e-08
-        ],
-        "IIXZZZYIYZZZZZZZZZYIII": [
-            0.0,
-            1.0463943629769769e-08
-        ],
-        "IIYZZZXIXZZZZZZZZZXIII": [
-            0.0,
-            -1.0463943629769769e-08
-        ],
-        "IIIYZZZXIXZZZZZZZZZXII": [
-            0.0,
-            -1.0463943629769769e-08
-        ]
+        "XZZZZZZZXIIIIIIIZIIIII": 1.5296977920616096e-08
     },
     "data": {
         "molecule_id": "AlH2+_singlet_C2v",

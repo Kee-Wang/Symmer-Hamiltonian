@@ -4206,39 +4206,7 @@
         "IIXZZYIIIIYZZZZZZXII": 8.013308761906329e-08,
         "IIYZZXIIXZZZZZZYIIII": 8.013308761906329e-08,
         "IIYZZYIIXZZZZZZXIIII": -8.013308761906329e-08,
-        "IIIXXIIIIIIYZZZZYIII": -8.013308761906329e-08,
-        "IXZYIIIYZZZZZYIIIIII": [
-            0.0,
-            -1.8543990401394187e-08
-        ],
-        "YZXIIIXZZZZZXIIIIIII": [
-            0.0,
-            1.8543990401394187e-08
-        ],
-        "XZYIIIYZZZZZYIIIIIII": [
-            0.0,
-            -1.8543990401394187e-08
-        ],
-        "IYZXIIIXZZZZZXIIIIII": [
-            0.0,
-            1.8543990401394187e-08
-        ],
-        "YZXIIIXZZZZZZZZZZZXI": [
-            0.0,
-            1.251349744272783e-08
-        ],
-        "IXZYIIIYZZZZZZZZZZZY": [
-            0.0,
-            -1.251349744272783e-08
-        ],
-        "IYZXIIIXZZZZZZZZZZZX": [
-            0.0,
-            1.251349744272783e-08
-        ],
-        "XZYIIIYZZZZZZZZZZZYI": [
-            0.0,
-            -1.251349744272783e-08
-        ]
+        "IIIXXIIIIIIYZZZZYIII": -8.013308761906329e-08
     },
     "data": {
         "molecule_id": "LiNe+_singlet_C1",

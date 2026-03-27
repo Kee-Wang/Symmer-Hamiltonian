@@ -4807,23 +4807,7 @@
         "XZZZXIYZZZZZYIIIII": -4.618900500269474e-08,
         "IXZZZXIYZZZZZYIIII": -4.618900500269474e-08,
         "IYZZZYIXZZZZZXIIII": -4.618900500269474e-08,
-        "YZZZYIXZZZZZXIIIII": -4.618900500269474e-08,
-        "IIXZXIIIXZZZZZZZYI": [
-            0.0,
-            3.190429709290416e-08
-        ],
-        "IIYZYIIIYZZZZZZZXI": [
-            0.0,
-            -3.190429709290416e-08
-        ],
-        "IIIYZYIIIYZZZZZZZX": [
-            0.0,
-            -3.190429709290416e-08
-        ],
-        "IIIXZXIIIXZZZZZZZY": [
-            0.0,
-            3.190429709290416e-08
-        ]
+        "YZZZYIXZZZZZXIIIII": -4.618900500269474e-08
     },
     "data": {
         "molecule_id": "CHD3_singlet_C3v",

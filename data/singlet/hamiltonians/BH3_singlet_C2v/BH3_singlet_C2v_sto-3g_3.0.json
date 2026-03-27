@@ -1880,31 +1880,7 @@
         "IXZZZZZZZIZXIIII": -4.6592309144520166e-08,
         "YZZZZZZZIZYIIIII": -4.6592309144520166e-08,
         "XZZZZZZZIZXIIIII": -4.6592309144520166e-08,
-        "IYZZZZZZZIZYIIII": -4.6592309144520166e-08,
-        "IXZZZZZYIIIIIIII": [
-            0.0,
-            1.2261444173803914e-08
-        ],
-        "YZZZZZXIIIIIIIZI": [
-            0.0,
-            1.2261444173803914e-08
-        ],
-        "XZZZZZYIIIIIIIZI": [
-            0.0,
-            -1.2261444173803914e-08
-        ],
-        "IYZZZZZXIIIIIIII": [
-            0.0,
-            -1.2261444173803914e-08
-        ],
-        "IYZZZZZXIIIIIIIZ": [
-            0.0,
-            1.2261444173803914e-08
-        ],
-        "IXZZZZZYIIIIIIIZ": [
-            0.0,
-            -1.2261444173803914e-08
-        ]
+        "IYZZZZZZZIZYIIII": -4.6592309144520166e-08
     },
     "data": {
         "molecule_id": "BH3_singlet_C2v",

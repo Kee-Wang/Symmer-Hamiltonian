@@ -6642,38 +6642,6 @@
         "IYZZZXIIIXZZZZZZZZZYII": 5.282838751587485e-08,
         "YZZZXIXZZZZZZZZZYIIIII": 5.282838751587485e-08,
         "IYZZZXIXZZZZZZZZZYIIII": 5.282838751587485e-08,
-        "IYZZZYIYZZZZZZZZZXIIII": [
-            0.0,
-            2.9593126282378553e-08
-        ],
-        "IXZZZXIXZZZZZZZZZYIIII": [
-            0.0,
-            -2.9593126282378553e-08
-        ],
-        "YZZZYIIIYZZZZZZZZZXIII": [
-            0.0,
-            2.9593126282378553e-08
-        ],
-        "IYZZZYIIIYZZZZZZZZZXII": [
-            0.0,
-            2.9593126282378553e-08
-        ],
-        "IXZZZXIIIXZZZZZZZZZYII": [
-            0.0,
-            -2.9593126282378553e-08
-        ],
-        "XZZZXIXZZZZZZZZZYIIIII": [
-            0.0,
-            -2.9593126282378553e-08
-        ],
-        "YZZZYIYZZZZZZZZZXIIIII": [
-            0.0,
-            2.9593126282378553e-08
-        ],
-        "XZZZXIIIXZZZZZZZZZYIII": [
-            0.0,
-            -2.9593126282378553e-08
-        ],
         "IIIXZXIIIIIIIIIIIIIZII": -2.335021053703303e-08,
         "IIYZYIIIIIIIIIIIZIIIII": -2.335021053703303e-08,
         "IIIYZYIIIIIIIIIIIZIIII": -2.335021053703303e-08,
@@ -6689,31 +6657,7 @@
         "IYZZZXIYZZZZZZZZZXIIII": -2.010614277667087e-08,
         "IXZZZYIXZZZZZZZZZYIIII": -2.010614277667087e-08,
         "YZZZXIIIYZZZZZZZZZXIII": -2.010614277667087e-08,
-        "IXZZZYIIIXZZZZZZZZZYII": -2.010614277667087e-08,
-        "IIIXZZZZZZZYIIIIIIIIII": [
-            0.0,
-            1.221108563565942e-08
-        ],
-        "IIYZZZZZZZXIIIIIIIIIZI": [
-            0.0,
-            1.221108563565942e-08
-        ],
-        "IIXZZZZZZZYIIIIIIIIIZI": [
-            0.0,
-            -1.221108563565942e-08
-        ],
-        "IIIYZZZZZZZXIIIIIIIIII": [
-            0.0,
-            -1.221108563565942e-08
-        ],
-        "IIIYZZZZZZZXIIIIIIIIIZ": [
-            0.0,
-            1.221108563565942e-08
-        ],
-        "IIIXZZZZZZZYIIIIIIIIIZ": [
-            0.0,
-            -1.221108563565942e-08
-        ]
+        "IXZZZYIIIXZZZZZZZZZYII": -2.010614277667087e-08
     },
     "data": {
         "molecule_id": "ArH2_singlet_Coov",

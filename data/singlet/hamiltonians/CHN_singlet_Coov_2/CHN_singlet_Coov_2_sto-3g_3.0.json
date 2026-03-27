@@ -6581,39 +6581,7 @@
         "IYZYIIIIIYZZZZZYIIIIII": -2.3304649317787002e-08,
         "IXZXIIIIIXZZZZZXIIIIII": -2.3304649317787002e-08,
         "YZYIIIIIYZZZZZYIIIIIII": -2.3304649317787002e-08,
-        "XZXIIIIIXZZZZZXIIIIIII": -2.3304649317787002e-08,
-        "IXZYIXZZZZZZZZZZZZZZZX": [
-            0.0,
-            2.1808514957003735e-08
-        ],
-        "XZYIXZZZZZZZZZZZZZZZXI": [
-            0.0,
-            2.1808514957003735e-08
-        ],
-        "YZXIYZZZZZZZZZZZZZZZYI": [
-            0.0,
-            -2.1808514957003735e-08
-        ],
-        "IYZXIYZZZZZZZZZZZZZZZY": [
-            0.0,
-            -2.1808514957003735e-08
-        ],
-        "IXZXIYZZZZZZZZZXIIIIII": [
-            0.0,
-            -1.0958473545342125e-08
-        ],
-        "YZYIXZZZZZZZZZYIIIIIII": [
-            0.0,
-            1.0958473545342125e-08
-        ],
-        "XZXIYZZZZZZZZZXIIIIIII": [
-            0.0,
-            -1.0958473545342125e-08
-        ],
-        "IYZYIXZZZZZZZZZYIIIIII": [
-            0.0,
-            1.0958473545342125e-08
-        ]
+        "XZXIIIIIXZZZZZXIIIIIII": -2.3304649317787002e-08
     },
     "data": {
         "molecule_id": "CHN_singlet_Coov_2",

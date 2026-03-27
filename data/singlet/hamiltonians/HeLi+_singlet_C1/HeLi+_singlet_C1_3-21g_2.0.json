@@ -6837,23 +6837,7 @@
         "YZZZZZZZZZZZZZZZZZZXXY": 1.0526711000008109e-07,
         "XZZZZZZZZZZZZZZZZZZXYY": -1.0526711000008109e-07,
         "YZZZZZZZZZZZZZZZZZZYXX": -1.0526711000008109e-07,
-        "XZZZZZZZZZZZZZZZZZZYYX": 1.0526711000008109e-07,
-        "YZXIXZZZZZZZZZZZZZZZXI": [
-            0.0,
-            -1.749523834057043e-08
-        ],
-        "IXZYIYZZZZZZZZZZZZZZZY": [
-            0.0,
-            1.749523834057043e-08
-        ],
-        "IYZXIXZZZZZZZZZZZZZZZX": [
-            0.0,
-            -1.749523834057043e-08
-        ],
-        "XZYIYZZZZZZZZZZZZZZZYI": [
-            0.0,
-            1.749523834057043e-08
-        ]
+        "XZZZZZZZZZZZZZZZZZZYYX": 1.0526711000008109e-07
     },
     "data": {
         "molecule_id": "HeLi+_singlet_C1",

@@ -2965,94 +2965,14 @@
         "XZXIIIXZXIIIIIII": -3.050073703574389e-08,
         "IYZYIIIYZYIIIIII": -3.050073703574389e-08,
         "IXZXIIIXZXIIIIII": -3.050073703574389e-08,
-        "IYZXIIIIIXZZZZZX": [
-            0.0,
-            -3.044404527471632e-08
-        ],
-        "IXZYIIIIIYZZZZZY": [
-            0.0,
-            3.044404527471632e-08
-        ],
-        "YZXIIIIIXZZZZZXI": [
-            0.0,
-            -3.044404527471632e-08
-        ],
-        "XZYIIIIIYZZZZZYI": [
-            0.0,
-            3.044404527471632e-08
-        ],
         "IXZXIIIYZYIIIIII": -2.653855512818564e-08,
         "IYZYIIIXZXIIIIII": -2.653855512818564e-08,
         "YZYIIIXZXIIIIIII": -2.653855512818564e-08,
         "XZXIIIYZYIIIIIII": -2.653855512818564e-08,
-        "XZZZZZXIYZXIIIII": [
-            0.0,
-            2.367958762242516e-08
-        ],
-        "YZZZZZYIXZYIIIII": [
-            0.0,
-            -2.367958762242516e-08
-        ],
-        "IYZZZZZYIXZYIIII": [
-            0.0,
-            -2.367958762242516e-08
-        ],
-        "IXZZZZZXIYZXIIII": [
-            0.0,
-            2.367958762242516e-08
-        ],
         "XZYIIIIIYZZZZZXI": 2.3350859798093587e-08,
         "YZXIIIIIXZZZZZYI": 2.3350859798093587e-08,
         "IXZYIIIIIYZZZZZX": 2.3350859798093587e-08,
-        "IYZXIIIIIXZZZZZY": 2.3350859798093587e-08,
-        "YZYIIIIIYZZZZZXI": [
-            0.0,
-            2.3350859797528523e-08
-        ],
-        "IXZXIIIIIXZZZZZY": [
-            0.0,
-            -2.3350859797528523e-08
-        ],
-        "IYZYIIIIIYZZZZZX": [
-            0.0,
-            2.3350859797528523e-08
-        ],
-        "XZXIIIIIXZZZZZYI": [
-            0.0,
-            -2.3350859797528523e-08
-        ],
-        "IIIYZZZZZYIYZZZX": [
-            0.0,
-            -1.972958719376775e-08
-        ],
-        "IIIYZZZZZXIXZZZX": [
-            0.0,
-            -1.972958719376775e-08
-        ],
-        "IIXZZZZZYIYZZZYI": [
-            0.0,
-            1.972958719376775e-08
-        ],
-        "IIXZZZZZXIXZZZYI": [
-            0.0,
-            1.972958719376775e-08
-        ],
-        "IIYZZZZZYIYZZZXI": [
-            0.0,
-            -1.972958719376775e-08
-        ],
-        "IIYZZZZZXIXZZZXI": [
-            0.0,
-            -1.972958719376775e-08
-        ],
-        "IIIXZZZZZXIXZZZY": [
-            0.0,
-            1.972958719376775e-08
-        ],
-        "IIIXZZZZZYIYZZZY": [
-            0.0,
-            1.972958719376775e-08
-        ]
+        "IYZXIIIIIXZZZZZY": 2.3350859798093587e-08
     },
     "data": {
         "molecule_id": "H3O+_singlet_C1",

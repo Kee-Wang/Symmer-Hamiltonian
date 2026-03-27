@@ -6830,62 +6830,14 @@
         "IYZYIYZZZZZZZZZZZZZZZY": 2.293621735124364e-08,
         "YZYIYZZZZZZZZZZZZZZZYI": 2.293621735124364e-08,
         "XZXIXZZZZZZZZZZZZZZZXI": 2.293621735124364e-08,
-        "IXZXIIIIIIIYZZZZZZZZZX": [
-            0.0,
-            1.236058500611198e-08
-        ],
         "IXZXIIIIIIIYZZZZZZZZZY": 1.236058500611198e-08,
         "IYZYIIIIIIIXZZZZZZZZZX": 1.236058500611198e-08,
-        "IYZYIIIIIIIXZZZZZZZZZY": [
-            0.0,
-            -1.236058500611198e-08
-        ],
         "YZYIIIIIIIXZZZZZZZZZXI": 1.236058500611198e-08,
-        "YZYIIIIIIIXZZZZZZZZZYI": [
-            0.0,
-            -1.236058500611198e-08
-        ],
         "XZXIIIIIIIYZZZZZZZZZYI": 1.236058500611198e-08,
-        "XZXIIIIIIIYZZZZZZZZZXI": [
-            0.0,
-            1.236058500611198e-08
-        ],
-        "YZXIXZZZZZZZZZZZZZZZXI": [
-            0.0,
-            -1.0498955034545652e-08
-        ],
-        "IYZXIXZZZZZZZZZZZZZZZX": [
-            0.0,
-            -1.0498955034545652e-08
-        ],
-        "IXZYIYZZZZZZZZZZZZZZZY": [
-            0.0,
-            1.0498955034545652e-08
-        ],
-        "XZYIYZZZZZZZZZZZZZZZYI": [
-            0.0,
-            1.0498955034545652e-08
-        ],
-        "YZYIIIIIIIYZZZZZZZZZXI": [
-            0.0,
-            1.0341037661305426e-08
-        ],
         "XZXIIIIIIIXZZZZZZZZZXI": 1.0341037661305426e-08,
         "YZYIIIIIIIYZZZZZZZZZYI": 1.0341037661305426e-08,
-        "XZXIIIIIIIXZZZZZZZZZYI": [
-            0.0,
-            -1.0341037661305426e-08
-        ],
         "IYZYIIIIIIIYZZZZZZZZZY": 1.0341037661305426e-08,
-        "IYZYIIIIIIIYZZZZZZZZZX": [
-            0.0,
-            1.0341037661305426e-08
-        ],
-        "IXZXIIIIIIIXZZZZZZZZZX": 1.0341037661305426e-08,
-        "IXZXIIIIIIIXZZZZZZZZZY": [
-            0.0,
-            -1.0341037661305426e-08
-        ]
+        "IXZXIIIIIIIXZZZZZZZZZX": 1.0341037661305426e-08
     },
     "data": {
         "molecule_id": "HeLi+_singlet_C1",

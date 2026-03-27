@@ -4354,39 +4354,7 @@
         "IXZXIXZZZZZXIIIIIIII": -7.682563122269936e-08,
         "YZYIYZZZZZYIIIIIIIII": -7.682563122269936e-08,
         "IYZYIYZZZZZYIIIIIIII": -7.682563122269936e-08,
-        "XZXIXZZZZZXIIIIIIIII": -7.682563122269936e-08,
-        "XZYIYZZZZZYIIIIIIIII": [
-            0.0,
-            -1.471694149283479e-08
-        ],
-        "YZXIXZZZZZXIIIIIIIII": [
-            0.0,
-            1.471694149283479e-08
-        ],
-        "YZYIYZZZZZXIIIIIIIII": [
-            0.0,
-            1.471694149283479e-08
-        ],
-        "IYZYIYZZZZZXIIIIIIII": [
-            0.0,
-            1.471694149283479e-08
-        ],
-        "IYZXIXZZZZZXIIIIIIII": [
-            0.0,
-            1.471694149283479e-08
-        ],
-        "IXZYIYZZZZZYIIIIIIII": [
-            0.0,
-            -1.471694149283479e-08
-        ],
-        "IXZXIXZZZZZYIIIIIIII": [
-            0.0,
-            -1.471694149283479e-08
-        ],
-        "XZXIXZZZZZYIIIIIIIII": [
-            0.0,
-            -1.471694149283479e-08
-        ]
+        "XZXIXZZZZZXIIIIIIIII": -7.682563122269936e-08
     },
     "data": {
         "molecule_id": "BeO_singlet_Coov",

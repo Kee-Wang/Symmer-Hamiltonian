@@ -4314,23 +4314,7 @@
         "IYXIIIXZZZZZZZZYIIII": 1.0102686633132928e-07,
         "IYYIIIYZZZZZZZZYIIII": 1.0102686633132928e-07,
         "IXXIIIXZZZZZZZZXIIII": 1.0102686633132928e-07,
-        "IXYIIIYZZZZZZZZXIIII": 1.0102686633132928e-07,
-        "XZXIYZXIIIIIIIIIIIII": [
-            0.0,
-            -3.167382591230388e-08
-        ],
-        "YZYIXZYIIIIIIIIIIIII": [
-            0.0,
-            3.167382591230388e-08
-        ],
-        "IYZYIXZYIIIIIIIIIIII": [
-            0.0,
-            3.167382591230388e-08
-        ],
-        "IXZXIYZXIIIIIIIIIIII": [
-            0.0,
-            -3.167382591230388e-08
-        ]
+        "IXYIIIYZZZZZZZZXIIII": 1.0102686633132928e-07
     },
     "data": {
         "molecule_id": "CF+_singlet_Coov",

@@ -11937,23 +11937,7 @@
         "IXYIIIIYZZZZZZZZZZXIII": 9.22926446323786e-08,
         "YZZXIIXZZZZZZZZZZZZYII": 9.22926446323786e-08,
         "XZZXIIYZZZZZZZZZZZZYII": -9.22926446323786e-08,
-        "XZZYIIYZZZZZZZZZZZZXII": 9.22926446323786e-08,
-        "IXZYIIIIIYZZZZZZZZZZZY": [
-            0.0,
-            -1.4864838956630379e-08
-        ],
-        "IYZXIIIIIXZZZZZZZZZZZX": [
-            0.0,
-            1.4864838956630379e-08
-        ],
-        "YZXIIIIIXZZZZZZZZZZZXI": [
-            0.0,
-            1.4864838956630379e-08
-        ],
-        "XZYIIIIIYZZZZZZZZZZZYI": [
-            0.0,
-            -1.4864838956630379e-08
-        ]
+        "XZZYIIYZZZZZZZZZZZZXII": 9.22926446323786e-08
     },
     "data": {
         "molecule_id": "HNO_singlet_Cs",

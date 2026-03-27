@@ -3286,38 +3286,6 @@
         "IIYZYIIIIIYZZZZZZZYIII": 4.463574665066732e-08,
         "IIXZXIIIIIXZZZZZZZXIII": 4.463574665066732e-08,
         "IIIXZXIIIIIXZZZZZZZXII": 4.463574665066732e-08,
-        "IIIIIIIXZZZXIXZYIIIIII": [
-            0.0,
-            -3.3723608326737764e-08
-        ],
-        "IIIIIIIIIXZXIXZZZYIIII": [
-            0.0,
-            -3.3723608326737764e-08
-        ],
-        "IIIIIIYZZZYIYZXIIIIIII": [
-            0.0,
-            3.3723608326737764e-08
-        ],
-        "IIIIIIIIYZYIYZZZXIIIII": [
-            0.0,
-            3.3723608326737764e-08
-        ],
-        "IIIIIIIIXZXIXZZZYIIIII": [
-            0.0,
-            -3.3723608326737764e-08
-        ],
-        "IIIIIIIYZZZYIYZXIIIIII": [
-            0.0,
-            3.3723608326737764e-08
-        ],
-        "IIIIIIXZZZXIXZYIIIIIII": [
-            0.0,
-            -3.3723608326737764e-08
-        ],
-        "IIIIIIIIIYZYIYZZZXIIII": [
-            0.0,
-            3.3723608326737764e-08
-        ],
         "IIIXZXIIIIIYZZZZZZZYII": 3.186646032396129e-08,
         "IIXZXIIIIIYZZZZZZZYIII": 3.186646032396129e-08,
         "IIYZYIIIIIXZZZZZZZXIII": 3.186646032396129e-08,
@@ -3325,23 +3293,7 @@
         "IXZYIIIIIIIYZXIIIIIIII": 1.599410626863176e-08,
         "IYZXIIIIIIIXZYIIIIIIII": 1.599410626863176e-08,
         "XZYIIIIIIIYZXIIIIIIIII": 1.599410626863176e-08,
-        "YZXIIIIIIIXZYIIIIIIIII": 1.599410626863176e-08,
-        "IXZXIIIIIIIYZXIIIIIIII": [
-            0.0,
-            -1.2422458539010863e-08
-        ],
-        "XZXIIIIIIIYZXIIIIIIIII": [
-            0.0,
-            -1.2422458539010863e-08
-        ],
-        "IYZYIIIIIIIXZYIIIIIIII": [
-            0.0,
-            1.2422458539010863e-08
-        ],
-        "YZYIIIIIIIXZYIIIIIIIII": [
-            0.0,
-            1.2422458539010863e-08
-        ]
+        "YZXIIIIIIIXZYIIIIIIIII": 1.599410626863176e-08
     },
     "data": {
         "molecule_id": "ArH2_singlet_Coov",

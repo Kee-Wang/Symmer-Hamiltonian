@@ -4226,71 +4226,7 @@
         "IYIZZYIIIIIIIIIIIIII": 6.826420587854653e-08,
         "IYZIZYIIIIIIIIIIIIII": 6.826420587854653e-08,
         "IXZIZXIIIIIIIIIIIIII": 6.826420587854653e-08,
-        "IXIZZXIIIIIIIIIIIIII": 6.826420587854653e-08,
-        "IXZZZZZZZYIIIIIIIXZX": [
-            0.0,
-            -1.112149406159923e-08
-        ],
-        "IXZZZZZZZXIIIIIIIYZX": [
-            0.0,
-            1.112149406159923e-08
-        ],
-        "IYZZZZZYIIIIIIIXZZZY": [
-            0.0,
-            -1.112149406159923e-08
-        ],
-        "IYZZZZZXIIIIIIIYZZZY": [
-            0.0,
-            1.112149406159923e-08
-        ],
-        "IXZZZZZYIIIIIIIXZZZX": [
-            0.0,
-            -1.112149406159923e-08
-        ],
-        "IXZZZZZXIIIIIIIYZZZX": [
-            0.0,
-            1.112149406159923e-08
-        ],
-        "IYZZZZZZZXIIIIIIIYZY": [
-            0.0,
-            1.112149406159923e-08
-        ],
-        "YZZZZZZZYIIIIIIIXZYI": [
-            0.0,
-            -1.112149406159923e-08
-        ],
-        "XZZZZZZZYIIIIIIIXZXI": [
-            0.0,
-            -1.112149406159923e-08
-        ],
-        "XZZZZZZZXIIIIIIIYZXI": [
-            0.0,
-            1.112149406159923e-08
-        ],
-        "YZZZZZYIIIIIIIXZZZYI": [
-            0.0,
-            -1.112149406159923e-08
-        ],
-        "YZZZZZXIIIIIIIYZZZYI": [
-            0.0,
-            1.112149406159923e-08
-        ],
-        "XZZZZZYIIIIIIIXZZZXI": [
-            0.0,
-            -1.112149406159923e-08
-        ],
-        "XZZZZZXIIIIIIIYZZZXI": [
-            0.0,
-            1.112149406159923e-08
-        ],
-        "YZZZZZZZXIIIIIIIYZYI": [
-            0.0,
-            1.112149406159923e-08
-        ],
-        "IYZZZZZZZYIIIIIIIXZY": [
-            0.0,
-            -1.112149406159923e-08
-        ]
+        "IXIZZXIIIIIIIIIIIIII": 6.826420587854653e-08
     },
     "data": {
         "molecule_id": "BeO_singlet_Coov",

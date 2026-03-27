@@ -4326,23 +4326,7 @@
         "XZYIYZXIIIIIIIIIIIII": 2.985620110738918e-08,
         "YZXIXZYIIIIIIIIIIIII": 2.985620110738918e-08,
         "IXZYIYZXIIIIIIIIIIII": 2.985620110738918e-08,
-        "IYZXIXZYIIIIIIIIIIII": 2.985620110738918e-08,
-        "IXZXIYZXIIIIIIIIIIII": [
-            0.0,
-            -2.3332626690024076e-08
-        ],
-        "IYZYIXZYIIIIIIIIIIII": [
-            0.0,
-            2.3332626690024076e-08
-        ],
-        "XZXIYZXIIIIIIIIIIIII": [
-            0.0,
-            -2.3332626690024076e-08
-        ],
-        "YZYIXZYIIIIIIIIIIIII": [
-            0.0,
-            2.3332626690024076e-08
-        ]
+        "IYZXIXZYIIIIIIIIIIII": 2.985620110738918e-08
     },
     "data": {
         "molecule_id": "BO+_singlet_Coov",

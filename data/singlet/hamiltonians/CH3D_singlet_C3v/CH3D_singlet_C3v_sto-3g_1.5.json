@@ -4756,90 +4756,10 @@
         "IYZXIIIIIIIXZYIIII": -1.892218322615784e-08,
         "IXZYIIIIIIIYZXIIII": -1.892218322615784e-08,
         "YZXIIIIIIIXZYIIIII": -1.892218322615784e-08,
-        "IIIIIYZZZXIIIIIIII": [
-            0.0,
-            -1.8507297364664214e-08
-        ],
-        "IIIIIXZZZYIIIIIIII": [
-            0.0,
-            1.8507297364664214e-08
-        ],
-        "IIIIXZZZYIIIIIIIII": [
-            0.0,
-            1.8507297364122113e-08
-        ],
-        "IIIIYZZZXIIIIIIIII": [
-            0.0,
-            -1.8507297364122113e-08
-        ],
-        "XZYIYZZZZZYIIIIIII": [
-            0.0,
-            1.6609719952376087e-08
-        ],
         "IXZYIXZZZZZYIIIIII": -1.6609719952376087e-08,
-        "IXZXIXZZZZZYIIIIII": [
-            0.0,
-            1.6609719952376087e-08
-        ],
-        "IXZYIYZZZZZYIIIIII": [
-            0.0,
-            1.6609719952376087e-08
-        ],
-        "IYZXIXZZZZZXIIIIII": [
-            0.0,
-            -1.6609719952376087e-08
-        ],
-        "IYZYIYZZZZZXIIIIII": [
-            0.0,
-            -1.6609719952376087e-08
-        ],
         "IYZXIYZZZZZXIIIIII": -1.6609719952376087e-08,
-        "XZXIXZZZZZYIIIIIII": [
-            0.0,
-            1.6609719952376087e-08
-        ],
-        "YZYIYZZZZZXIIIIIII": [
-            0.0,
-            -1.6609719952376087e-08
-        ],
         "YZXIYZZZZZXIIIIIII": -1.6609719952376087e-08,
-        "XZYIXZZZZZYIIIIIII": -1.6609719952376087e-08,
-        "YZXIXZZZZZXIIIIIII": [
-            0.0,
-            -1.6609719952376087e-08
-        ],
-        "IXZXIIIIIIIYZXIIII": [
-            0.0,
-            1.2993041193271775e-08
-        ],
-        "YZYIIIIIIIXZYIIIII": [
-            0.0,
-            -1.2993041193271775e-08
-        ],
-        "IYZYIIIIIIIXZYIIII": [
-            0.0,
-            -1.2993041193271775e-08
-        ],
-        "XZXIIIIIIIYZXIIIII": [
-            0.0,
-            1.2993041193271775e-08
-        ],
-        "IXZYIXZZZZZXIIIIII": [
-            0.0,
-            1.2007229655171124e-08
-        ],
-        "IYZXIYZZZZZYIIIIII": [
-            0.0,
-            -1.2007229655171124e-08
-        ],
-        "XZYIXZZZZZXIIIIIII": [
-            0.0,
-            1.2007229655171124e-08
-        ],
-        "YZXIYZZZZZYIIIIIII": [
-            0.0,
-            -1.2007229655171124e-08
-        ]
+        "XZYIXZZZZZYIIIIIII": -1.6609719952376087e-08
     },
     "data": {
         "molecule_id": "CH3D_singlet_C3v",

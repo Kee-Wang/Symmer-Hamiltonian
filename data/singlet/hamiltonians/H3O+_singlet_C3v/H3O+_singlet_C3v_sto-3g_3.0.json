@@ -2608,55 +2608,7 @@
         "IIIYZIZZZZZZZZZY": -3.5581382014725134e-08,
         "IIIXZIZZZZZZZZZX": -3.5581382014725134e-08,
         "IIXZIZZZZZZZZZXI": -3.5581382014725134e-08,
-        "IIYZIZZZZZZZZZYI": -3.5581382014725134e-08,
-        "IIYZIZZZXIIIIIII": [
-            0.0,
-            -2.8046742436994e-08
-        ],
-        "IIIYZIZZZXIIIIII": [
-            0.0,
-            -2.8046742436994e-08
-        ],
-        "IIIXZIZZZYIIIIII": [
-            0.0,
-            2.8046742436994e-08
-        ],
-        "IIXZIZZZYIIIIIII": [
-            0.0,
-            2.8046742436994e-08
-        ],
-        "IIYZIZZZZZZZZZXI": [
-            0.0,
-            -1.5707816594931294e-08
-        ],
-        "IIXZIZZZZZZZZZYI": [
-            0.0,
-            1.5707816594931294e-08
-        ],
-        "IIIYZIZZZZZZZZZX": [
-            0.0,
-            -1.5707816594931294e-08
-        ],
-        "IIIXZIZZZZZZZZZY": [
-            0.0,
-            1.5707816594931294e-08
-        ],
-        "IIIYZZZZZZZZZZZX": [
-            0.0,
-            1.1958354234061852e-08
-        ],
-        "IIYZZZZZZZZZZZXI": [
-            0.0,
-            1.1958354234061852e-08
-        ],
-        "IIXZZZZZZZZZZZYI": [
-            0.0,
-            -1.1958354234061852e-08
-        ],
-        "IIIXZZZZZZZZZZZY": [
-            0.0,
-            -1.1958354234061852e-08
-        ]
+        "IIYZIZZZZZZZZZYI": -3.5581382014725134e-08
     },
     "data": {
         "molecule_id": "H3O+_singlet_C3v",

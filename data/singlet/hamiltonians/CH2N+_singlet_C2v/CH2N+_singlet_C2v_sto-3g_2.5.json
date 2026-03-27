@@ -9152,71 +9152,7 @@
         "IYZXIIIXZZZZZZZYIIIIIIII": -4.196467467302994e-08,
         "IXZYIIIYZZZZZZZXIIIIIIII": -4.196467467302994e-08,
         "YZXIIIXZZZZZZZYIIIIIIIII": -4.196467467302994e-08,
-        "XZYIIIYZZZZZZZXIIIIIIIII": -4.196467467302994e-08,
-        "IYZXIIIIIIIIIIIIIIIYZYII": [
-            0.0,
-            2.728234504471418e-08
-        ],
-        "XZYIIIIIIIIIIIIIIIXZXIII": [
-            0.0,
-            -2.728234504471418e-08
-        ],
-        "YZXIIIIIIIIIIIIIIIYZYIII": [
-            0.0,
-            2.728234504471418e-08
-        ],
-        "IXZYIIIIIIIIIIIIIIIXZXII": [
-            0.0,
-            -2.728234504471418e-08
-        ],
-        "IYZYIXZYIIIIIIIIIIIIIIII": [
-            0.0,
-            2.1533730151705298e-08
-        ],
-        "IXZXIYZXIIIIIIIIIIIIIIII": [
-            0.0,
-            -2.1533730151705298e-08
-        ],
-        "XZXIYZXIIIIIIIIIIIIIIIII": [
-            0.0,
-            -2.1533730151705298e-08
-        ],
-        "YZYIXZYIIIIIIIIIIIIIIIII": [
-            0.0,
-            2.1533730151705298e-08
-        ],
-        "YZYIIIYZZZZZZZXIIIIIIIII": [
-            0.0,
-            1.3374712989835492e-08
-        ],
-        "XZXIIIXZZZZZZZYIIIIIIIII": [
-            0.0,
-            -1.3374712989835492e-08
-        ],
-        "XZYIIIYZZZZZZZYIIIIIIIII": [
-            0.0,
-            -1.3374712989835492e-08
-        ],
-        "IYZXIIIXZZZZZZZXIIIIIIII": [
-            0.0,
-            1.3374712989835492e-08
-        ],
-        "IYZYIIIYZZZZZZZXIIIIIIII": [
-            0.0,
-            1.3374712989835492e-08
-        ],
-        "IXZXIIIXZZZZZZZYIIIIIIII": [
-            0.0,
-            -1.3374712989835492e-08
-        ],
-        "IXZYIIIYZZZZZZZYIIIIIIII": [
-            0.0,
-            -1.3374712989835492e-08
-        ],
-        "YZXIIIXZZZZZZZXIIIIIIIII": [
-            0.0,
-            1.3374712989835492e-08
-        ]
+        "XZYIIIYZZZZZZZXIIIIIIIII": -4.196467467302994e-08
     },
     "data": {
         "molecule_id": "CH2N+_singlet_C2v",

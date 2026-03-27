@@ -4382,71 +4382,7 @@
         "YZXIYZXIIIIIIIIIIIII": -2.0043573739153465e-08,
         "XZYIXZYIIIIIIIIIIIII": -2.0043573739153465e-08,
         "IYZXIYZXIIIIIIIIIIII": -2.0043573739153465e-08,
-        "IXZYIXZYIIIIIIIIIIII": -2.0043573739153465e-08,
-        "IXZXIXZYIIIIIIIIIIII": [
-            0.0,
-            -1.0203707514048633e-08
-        ],
-        "IYZYIXZYIIIIIIIIIIII": [
-            0.0,
-            1.0203707514048633e-08
-        ],
-        "IXZYIXZXIIIIIIIIIIII": [
-            0.0,
-            1.0203707514048633e-08
-        ],
-        "IYZXIXZXIIIIIIIIIIII": [
-            0.0,
-            1.0203707514048633e-08
-        ],
-        "IYZYIYZXIIIIIIIIIIII": [
-            0.0,
-            1.0203707514048633e-08
-        ],
-        "IXZXIYZXIIIIIIIIIIII": [
-            0.0,
-            -1.0203707514048633e-08
-        ],
-        "XZXIYZXIIIIIIIIIIIII": [
-            0.0,
-            -1.0203707514048633e-08
-        ],
-        "YZYIYZXIIIIIIIIIIIII": [
-            0.0,
-            1.0203707514048633e-08
-        ],
-        "YZXIXZXIIIIIIIIIIIII": [
-            0.0,
-            1.0203707514048633e-08
-        ],
-        "XZYIXZXIIIIIIIIIIIII": [
-            0.0,
-            1.0203707514048633e-08
-        ],
-        "YZXIYZYIIIIIIIIIIIII": [
-            0.0,
-            -1.0203707514048633e-08
-        ],
-        "XZYIYZYIIIIIIIIIIIII": [
-            0.0,
-            -1.0203707514048633e-08
-        ],
-        "XZXIXZYIIIIIIIIIIIII": [
-            0.0,
-            -1.0203707514048633e-08
-        ],
-        "YZYIXZYIIIIIIIIIIIII": [
-            0.0,
-            1.0203707514048633e-08
-        ],
-        "IXZYIYZYIIIIIIIIIIII": [
-            0.0,
-            -1.0203707514048633e-08
-        ],
-        "IYZXIYZYIIIIIIIIIIII": [
-            0.0,
-            -1.0203707514048633e-08
-        ]
+        "IXZYIXZYIIIIIIIIIIII": -2.0043573739153465e-08
     },
     "data": {
         "molecule_id": "BeN-_singlet_Coov",

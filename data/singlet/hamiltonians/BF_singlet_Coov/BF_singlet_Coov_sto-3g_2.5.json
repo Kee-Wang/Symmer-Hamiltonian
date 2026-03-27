@@ -4290,23 +4290,7 @@
         "IYZYIIIIZIIIIIIIIIII": 5.2368799979820075e-08,
         "IXZXIIIIZIIIIIIIIIII": 5.2368799979820075e-08,
         "XZXIIIIIIZIIIIIIIIII": 5.2368799979820075e-08,
-        "IXZXIIIIIIZIIIIIIIII": 5.2368799979820075e-08,
-        "XZXIIIYZZZZZXIIIIIII": [
-            0.0,
-            2.503606615404152e-08
-        ],
-        "YZYIIIXZZZZZYIIIIIII": [
-            0.0,
-            -2.503606615404152e-08
-        ],
-        "IXZXIIIYZZZZZXIIIIII": [
-            0.0,
-            2.503606615404152e-08
-        ],
-        "IYZYIIIXZZZZZYIIIIII": [
-            0.0,
-            -2.503606615404152e-08
-        ]
+        "IXZXIIIIIIZIIIIIIIII": 5.2368799979820075e-08
     },
     "data": {
         "molecule_id": "BF_singlet_Coov",

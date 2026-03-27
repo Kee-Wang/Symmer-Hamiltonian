@@ -4298,55 +4298,7 @@
         "YZXIXZZZZZZZYIIIIIII": 3.8333092515079874e-08,
         "XZYIYZZZZZZZXIIIIIII": 3.8333092515079874e-08,
         "IYZXIXZZZZZZZYIIIIII": 3.8333092515079874e-08,
-        "IXZYIYZZZZZZZXIIIIII": 3.8333092515079874e-08,
-        "YZYIXZYIIIIIIIIIIIII": [
-            0.0,
-            3.2093804321977016e-08
-        ],
-        "IYZYIXZYIIIIIIIIIIII": [
-            0.0,
-            3.2093804321977016e-08
-        ],
-        "XZXIYZXIIIIIIIIIIIII": [
-            0.0,
-            -3.2093804321977016e-08
-        ],
-        "IXZXIYZXIIIIIIIIIIII": [
-            0.0,
-            -3.2093804321977016e-08
-        ],
-        "YZXIXZZZZZZZXIIIIIII": [
-            0.0,
-            1.4719488000031472e-08
-        ],
-        "IXZYIYZZZZZZZYIIIIII": [
-            0.0,
-            -1.4719488000031472e-08
-        ],
-        "IYZXIXZZZZZZZXIIIIII": [
-            0.0,
-            1.4719488000031472e-08
-        ],
-        "XZYIYZZZZZZZYIIIIIII": [
-            0.0,
-            -1.4719488000031472e-08
-        ],
-        "IYZYIYZZZZZZZXIIIIII": [
-            0.0,
-            -1.2303236497701269e-08
-        ],
-        "IXZXIXZZZZZZZYIIIIII": [
-            0.0,
-            1.2303236497701269e-08
-        ],
-        "YZYIYZZZZZZZXIIIIIII": [
-            0.0,
-            -1.2303236497701269e-08
-        ],
-        "XZXIXZZZZZZZYIIIIIII": [
-            0.0,
-            1.2303236497701269e-08
-        ]
+        "IXZYIYZZZZZZZXIIIIII": 3.8333092515079874e-08
     },
     "data": {
         "molecule_id": "CO_singlet_Coov",

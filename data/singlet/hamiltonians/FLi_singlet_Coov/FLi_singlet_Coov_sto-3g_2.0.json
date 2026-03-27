@@ -4366,39 +4366,7 @@
         "IYZYIIIIIIIIIIIIZIII": 4.8812183342747286e-08,
         "IXZXIIIIIIIIIIIIZIII": 4.8812183342747286e-08,
         "YZYIIIIIIIIIIIIZIIII": 4.8812183342747286e-08,
-        "XZXIIIIIIIIIIIIZIIII": 4.8812183342747286e-08,
-        "IXZYIIIYZZZZZZZYIIII": [
-            0.0,
-            1.0405672342902378e-08
-        ],
-        "IYZXIIIIIXZZZZZZZXII": [
-            0.0,
-            -1.0405672342902378e-08
-        ],
-        "YZXIIIXZZZZZZZXIIIII": [
-            0.0,
-            -1.0405672342902378e-08
-        ],
-        "XZYIIIYZZZZZZZYIIIII": [
-            0.0,
-            1.0405672342902378e-08
-        ],
-        "YZXIIIIIXZZZZZZZXIII": [
-            0.0,
-            -1.0405672342902378e-08
-        ],
-        "XZYIIIIIYZZZZZZZYIII": [
-            0.0,
-            1.0405672342902378e-08
-        ],
-        "IYZXIIIXZZZZZZZXIIII": [
-            0.0,
-            -1.0405672342902378e-08
-        ],
-        "IXZYIIIIIYZZZZZZZYII": [
-            0.0,
-            1.0405672342902378e-08
-        ]
+        "XZXIIIIIIIIIIIIZIIII": 4.8812183342747286e-08
     },
     "data": {
         "molecule_id": "FLi_singlet_Coov",

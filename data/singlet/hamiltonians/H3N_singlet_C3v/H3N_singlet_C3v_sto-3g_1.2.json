@@ -2941,58 +2941,10 @@
         "IIYZYIIIXZXIIIII": 4.580024185584545e-08,
         "IIIYZYIIIXZXIIII": 4.580024185584545e-08,
         "IIIXZXIIIYZYIIII": 4.580024185584545e-08,
-        "IYZZZZZZZXIXZZZX": [
-            0.0,
-            2.5216197341613422e-08
-        ],
-        "YZZZZZZZXIXZZZXI": [
-            0.0,
-            2.5216197341613422e-08
-        ],
-        "XZZZZZZZYIYZZZYI": [
-            0.0,
-            -2.5216197341613422e-08
-        ],
-        "IYZZZZZZZYIYZZZX": [
-            0.0,
-            2.5216197341613422e-08
-        ],
-        "YZZZZZZZYIYZZZXI": [
-            0.0,
-            2.5216197341613422e-08
-        ],
-        "XZZZZZZZXIXZZZYI": [
-            0.0,
-            -2.5216197341613422e-08
-        ],
-        "IXZZZZZZZYIYZZZY": [
-            0.0,
-            -2.5216197341613422e-08
-        ],
-        "IXZZZZZZZXIXZZZY": [
-            0.0,
-            -2.5216197341613422e-08
-        ],
         "XZYIIIIIIIYZZZXI": 1.4139062786474292e-08,
         "YZXIIIIIIIXZZZYI": 1.4139062786474292e-08,
         "IYZXIIIIIIIXZZZY": 1.4139062786474292e-08,
-        "IXZYIIIIIIIYZZZX": 1.4139062786474292e-08,
-        "IYZYIIIIIIIXZZZY": [
-            0.0,
-            1.1430309962202852e-08
-        ],
-        "IXZXIIIIIIIYZZZX": [
-            0.0,
-            -1.1430309962202852e-08
-        ],
-        "XZXIIIIIIIYZZZXI": [
-            0.0,
-            -1.1430309962202852e-08
-        ],
-        "YZYIIIIIIIXZZZYI": [
-            0.0,
-            1.1430309962202852e-08
-        ]
+        "IXZYIIIIIIIYZZZX": 1.4139062786474292e-08
     },
     "data": {
         "molecule_id": "H3N_singlet_C3v",

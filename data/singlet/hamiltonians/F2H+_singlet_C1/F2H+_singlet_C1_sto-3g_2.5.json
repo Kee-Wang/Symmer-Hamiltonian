@@ -10158,318 +10158,30 @@
         "XZZZZZXIXZZZZZZZXIIIII": 3.114305938095621e-08,
         "IYZZZZZYIYZZZZZZZYIIII": 3.114305938095621e-08,
         "YZZZZZYIYZZZZZZZYIIIII": 3.114305938095621e-08,
-        "IIXZZZXIYZZZZZZZZZZZXI": [
-            0.0,
-            -2.9409986285131333e-08
-        ],
-        "IIYZZZXIYZZZZZZZZZZZYI": [
-            0.0,
-            -2.9409986285131333e-08
-        ],
-        "IIIXZZZXIYZZZZZZZZZZZX": [
-            0.0,
-            -2.9409986285131333e-08
-        ],
-        "IIYZZZYIXZZZZZZZZZZZYI": [
-            0.0,
-            2.9409986285131333e-08
-        ],
-        "IIXZZZYIXZZZZZZZZZZZXI": [
-            0.0,
-            2.9409986285131333e-08
-        ],
-        "IIIXZZZYIXZZZZZZZZZZZX": [
-            0.0,
-            2.9409986285131333e-08
-        ],
-        "IIIYZZZXIYZZZZZZZZZZZY": [
-            0.0,
-            -2.9409986285131333e-08
-        ],
-        "IIIYZZZYIXZZZZZZZZZZZY": [
-            0.0,
-            2.9409986285131333e-08
-        ],
-        "IIIIIIIIIIIXZYIXZXIIII": [
-            0.0,
-            2.9363066126000198e-08
-        ],
-        "IIIIIIIIIIXZYIXZXIIIII": [
-            0.0,
-            2.9363066126000198e-08
-        ],
-        "IIIIIIIIIIYZXIYZYIIIII": [
-            0.0,
-            -2.9363066126000198e-08
-        ],
-        "IIIIIIIIIIIYZXIYZYIIII": [
-            0.0,
-            -2.9363066126000198e-08
-        ],
-        "IIIIIIIXZZZYIXZZZZZZZX": [
-            0.0,
-            -2.5503370015709105e-08
-        ],
         "IIIIIIIYZZZYIXZZZZZZZX": 2.5503370015709105e-08,
-        "IIIIIIYZZZXIYZZZZZZZYI": [
-            0.0,
-            2.5503370015709105e-08
-        ],
         "IIIIIIXZZZXIYZZZZZZZYI": 2.5503370015709105e-08,
         "IIIIIIYZZZYIXZZZZZZZXI": 2.5503370015709105e-08,
-        "IIIIIIXZZZYIXZZZZZZZXI": [
-            0.0,
-            -2.5503370015709105e-08
-        ],
         "IIIIIIIXZZZXIYZZZZZZZY": 2.5503370015709105e-08,
-        "IIIIIIIYZZZXIYZZZZZZZY": [
-            0.0,
-            2.5503370015709105e-08
-        ],
-        "IIIIIIIXZZZXIXZYIIIIII": [
-            0.0,
-            -2.4273165706480255e-08
-        ],
-        "IIIIIIXZZZXIXZYIIIIIII": [
-            0.0,
-            -2.4273165706480255e-08
-        ],
-        "IIIIIIIYZZZYIYZXIIIIII": [
-            0.0,
-            2.4273165706480255e-08
-        ],
-        "IIIIIIYZZZYIYZXIIIIIII": [
-            0.0,
-            2.4273165706480255e-08
-        ],
-        "XZZZXIIIIIIIIIXZZZZZYI": [
-            0.0,
-            -2.3051358523968656e-08
-        ],
-        "XZZZYIIIIIIIIIYZZZZZYI": [
-            0.0,
-            -2.3051358523968656e-08
-        ],
-        "IYZZZXIIIIIIIIIXZZZZZX": [
-            0.0,
-            2.3051358523968656e-08
-        ],
-        "YZZZXIIIIIIIIIXZZZZZXI": [
-            0.0,
-            2.3051358523968656e-08
-        ],
-        "IXZZZYIIIIIIIIIYZZZZZY": [
-            0.0,
-            -2.3051358523968656e-08
-        ],
-        "YZZZYIIIIIIIIIYZZZZZXI": [
-            0.0,
-            2.3051358523968656e-08
-        ],
-        "IXZZZXIIIIIIIIIXZZZZZY": [
-            0.0,
-            -2.3051358523968656e-08
-        ],
-        "IYZZZYIIIIIIIIIYZZZZZX": [
-            0.0,
-            2.3051358523968656e-08
-        ],
-        "IXZZZYIIIIIIIIIXZZZZZX": [
-            0.0,
-            -2.2968503418475247e-08
-        ],
-        "IYZZZXIIIIIIIIIYZZZZZY": [
-            0.0,
-            2.2968503418475247e-08
-        ],
-        "IXZZZXIIIIIIIIIYZZZZZX": [
-            0.0,
-            2.2968503418475247e-08
-        ],
-        "IYZZZYIIIIIIIIIXZZZZZY": [
-            0.0,
-            -2.2968503418475247e-08
-        ],
-        "XZZZYIIIIIIIIIXZZZZZXI": [
-            0.0,
-            -2.2968503418475247e-08
-        ],
-        "XZZZXIIIIIIIIIYZZZZZXI": [
-            0.0,
-            2.2968503418475247e-08
-        ],
-        "YZZZYIIIIIIIIIXZZZZZYI": [
-            0.0,
-            -2.2968503418475247e-08
-        ],
-        "YZZZXIIIIIIIIIYZZZZZYI": [
-            0.0,
-            2.2968503418475247e-08
-        ],
         "IYZZZXIIIIIIIIIXZZZZZY": -2.2844220760235145e-08,
         "XZZZYIIIIIIIIIYZZZZZXI": -2.2844220760235145e-08,
         "YZZZXIIIIIIIIIXZZZZZYI": -2.2844220760235145e-08,
         "IXZZZYIIIIIIIIIYZZZZZX": -2.2844220760235145e-08,
-        "IIIIIIXZZZYIYZZZZZYIII": [
-            0.0,
-            1.922239375043079e-08
-        ],
-        "IIIIIIIYZZZXIXZZZZZXII": [
-            0.0,
-            -1.922239375043079e-08
-        ],
-        "IIIIIIIXZZZYIYZZZZZYII": [
-            0.0,
-            1.922239375043079e-08
-        ],
-        "IIIIIIYZZZXIXZZZZZXIII": [
-            0.0,
-            -1.922239375043079e-08
-        ],
-        "YZXIXZZZZZZZZZZZXIIIII": [
-            0.0,
-            -1.670187844805062e-08
-        ],
-        "XZXIXZZZZZZZZZZZYIIIII": [
-            0.0,
-            1.670187844805062e-08
-        ],
-        "YZYIYZZZZZZZZZZZXIIIII": [
-            0.0,
-            -1.670187844805062e-08
-        ],
-        "IYZYIYZZZZZZZZZZZXIIII": [
-            0.0,
-            -1.670187844805062e-08
-        ],
-        "IYZXIXZZZZZZZZZZZXIIII": [
-            0.0,
-            -1.670187844805062e-08
-        ],
-        "IXZYIYZZZZZZZZZZZYIIII": [
-            0.0,
-            1.670187844805062e-08
-        ],
-        "IXZXIXZZZZZZZZZZZYIIII": [
-            0.0,
-            1.670187844805062e-08
-        ],
-        "XZYIYZZZZZZZZZZZYIIIII": [
-            0.0,
-            1.670187844805062e-08
-        ],
-        "IIYZXIIIYZZZZZZZYIIIII": [
-            0.0,
-            1.652356040670974e-08
-        ],
-        "IIXZYIIIXZZZZZZZXIIIII": [
-            0.0,
-            -1.652356040670974e-08
-        ],
-        "IIIXZYIIIXZZZZZZZXIIII": [
-            0.0,
-            -1.652356040670974e-08
-        ],
-        "IIIYZXIIIYZZZZZZZYIIII": [
-            0.0,
-            1.652356040670974e-08
-        ],
         "IIIIIIIXZZZYIXZYIIIIII": 1.3229089046905717e-08,
         "IIIIIIIYZZZXIYZXIIIIII": 1.3229089046905717e-08,
         "IIIIIIXZZZYIXZYIIIIIII": 1.3229089046905717e-08,
         "IIIIIIYZZZXIYZXIIIIIII": 1.3229089046905717e-08,
-        "IIIXZZZZZXIIIIIXZZZYII": [
-            0.0,
-            -1.2204543907239636e-08
-        ],
         "IIIYZZZZZYIIIIIYZZZYII": 1.2204543907239636e-08,
         "IIIXZZZZZXIIIIIXZZZXII": 1.2204543907239636e-08,
-        "IIIYZZZZZXIIIIIXZZZXII": [
-            0.0,
-            1.2204543907239636e-08
-        ],
-        "IIIYZZZZZYIIIIIYZZZXII": [
-            0.0,
-            1.2204543907239636e-08
-        ],
-        "IIYZZZZZYIIIIIYZZZXIII": [
-            0.0,
-            1.2204543907239636e-08
-        ],
-        "IIYZZZZZXIIIIIXZZZXIII": [
-            0.0,
-            1.2204543907239636e-08
-        ],
         "IIXZZZZZXIIIIIXZZZXIII": 1.2204543907239636e-08,
         "IIYZZZZZYIIIIIYZZZYIII": 1.2204543907239636e-08,
-        "IIXZZZZZXIIIIIXZZZYIII": [
-            0.0,
-            -1.2204543907239636e-08
-        ],
-        "IIXZZZZZYIIIIIYZZZYIII": [
-            0.0,
-            -1.2204543907239636e-08
-        ],
-        "IIIXZZZZZYIIIIIYZZZYII": [
-            0.0,
-            -1.2204543907239636e-08
-        ],
         "YZXIIIIIIIIIIIXZZZZZYI": 1.1566285290333656e-08,
         "XZYIIIIIIIIIIIYZZZZZXI": 1.1566285290333656e-08,
         "IYZXIIIIIIIIIIIXZZZZZY": 1.1566285290333656e-08,
         "IXZYIIIIIIIIIIIYZZZZZX": 1.1566285290333656e-08,
-        "YZZZXIXZZZZZZZZZZZZZXI": [
-            0.0,
-            1.150904271042399e-08
-        ],
-        "XZZZYIYZZZZZZZZZZZZZYI": [
-            0.0,
-            -1.150904271042399e-08
-        ],
-        "XZZZXIXZZZZZZZZZZZZZYI": [
-            0.0,
-            -1.150904271042399e-08
-        ],
         "XZZZYIXZZZZZZZZZZZZZYI": 1.150904271042399e-08,
-        "IXZZZXIXZZZZZZZZZZZZZY": [
-            0.0,
-            -1.150904271042399e-08
-        ],
-        "IXZZZYIYZZZZZZZZZZZZZY": [
-            0.0,
-            -1.150904271042399e-08
-        ],
-        "IYZZZXIXZZZZZZZZZZZZZX": [
-            0.0,
-            1.150904271042399e-08
-        ],
-        "IYZZZYIYZZZZZZZZZZZZZX": [
-            0.0,
-            1.150904271042399e-08
-        ],
         "IXZZZYIXZZZZZZZZZZZZZY": 1.150904271042399e-08,
         "IYZZZXIYZZZZZZZZZZZZZX": 1.150904271042399e-08,
-        "YZZZYIYZZZZZZZZZZZZZXI": [
-            0.0,
-            1.150904271042399e-08
-        ],
         "YZZZXIYZZZZZZZZZZZZZXI": 1.150904271042399e-08,
-        "IYZZZXIYZZZZZZZZZZZZZY": [
-            0.0,
-            1.1192971832842486e-08
-        ],
-        "IXZZZYIXZZZZZZZZZZZZZX": [
-            0.0,
-            -1.1192971832842486e-08
-        ],
-        "XZZZYIXZZZZZZZZZZZZZXI": [
-            0.0,
-            -1.1192971832842486e-08
-        ],
-        "YZZZXIYZZZZZZZZZZZZZYI": [
-            0.0,
-            1.1192971832842486e-08
-        ],
         "YZXIIIYZZZZZZZZZXIIIII": -1.1121748035652877e-08,
         "IXZYIIIXZZZZZZZZZYIIII": -1.1121748035652877e-08,
         "IYZXIIIYZZZZZZZZZXIIII": -1.1121748035652877e-08,
@@ -10478,82 +10190,18 @@
         "IXZZZYIYZZZZZZZZZZZZZX": -1.0560830077679482e-08,
         "IYZZZXIXZZZZZZZZZZZZZY": -1.0560830077679482e-08,
         "YZZZXIXZZZZZZZZZZZZZYI": -1.0560830077679482e-08,
-        "IYZZZZZZZYIIIIIYZXIIII": [
-            0.0,
-            -1.0077544680664033e-08
-        ],
         "IYZZZZZZZXIIIIIXZYIIII": -1.0077544680664033e-08,
-        "IXZZZZZZZYIIIIIYZYIIII": [
-            0.0,
-            1.0077544680664033e-08
-        ],
-        "IYZZZZZZZXIIIIIXZXIIII": [
-            0.0,
-            -1.0077544680664033e-08
-        ],
         "IXZZZZZZZYIIIIIYZXIIII": -1.0077544680664033e-08,
-        "XZZZZZZZXIIIIIXZYIIIII": [
-            0.0,
-            1.0077544680664033e-08
-        ],
         "YZZZZZZZXIIIIIXZYIIIII": -1.0077544680664033e-08,
-        "IXZZZZZZZXIIIIIXZYIIII": [
-            0.0,
-            1.0077544680664033e-08
-        ],
-        "YZZZZZZZXIIIIIXZXIIIII": [
-            0.0,
-            -1.0077544680664033e-08
-        ],
         "XZZZZZZZYIIIIIYZXIIIII": -1.0077544680664033e-08,
-        "YZZZZZZZYIIIIIYZXIIIII": [
-            0.0,
-            -1.0077544680664033e-08
-        ],
-        "XZZZZZZZYIIIIIYZYIIIII": [
-            0.0,
-            1.0077544680664033e-08
-        ],
         "IIYZZZZZYIIIIIIIIIXZXI": -1.0064154780123597e-08,
-        "IIXZZZZZYIIIIIIIIIXZXI": [
-            0.0,
-            1.0064154780123597e-08
-        ],
         "IIIXZZZZZYIIIIIIIIIXZY": 1.0064154780123597e-08,
-        "IIIYZZZZZYIIIIIIIIIXZY": [
-            0.0,
-            1.0064154780123597e-08
-        ],
         "IIIXZZZZZXIIIIIIIIIYZY": -1.0064154780123597e-08,
-        "IIIYZZZZZXIIIIIIIIIYZY": [
-            0.0,
-            -1.0064154780123597e-08
-        ],
-        "IIIXZZZZZYIIIIIIIIIXZX": [
-            0.0,
-            1.0064154780123597e-08
-        ],
-        "IIIXZZZZZXIIIIIIIIIYZX": [
-            0.0,
-            -1.0064154780123597e-08
-        ],
         "IIIYZZZZZXIIIIIIIIIYZX": 1.0064154780123597e-08,
         "IIYZZZZZXIIIIIIIIIYZXI": 1.0064154780123597e-08,
-        "IIYZZZZZYIIIIIIIIIXZYI": [
-            0.0,
-            1.0064154780123597e-08
-        ],
         "IIXZZZZZXIIIIIIIIIYZYI": -1.0064154780123597e-08,
-        "IIYZZZZZXIIIIIIIIIYZYI": [
-            0.0,
-            -1.0064154780123597e-08
-        ],
         "IIXZZZZZYIIIIIIIIIXZYI": 1.0064154780123597e-08,
-        "IIIYZZZZZYIIIIIIIIIXZX": -1.0064154780123597e-08,
-        "IIXZZZZZXIIIIIIIIIYZXI": [
-            0.0,
-            -1.0064154780123597e-08
-        ]
+        "IIIYZZZZZYIIIIIIIIIXZX": -1.0064154780123597e-08
     },
     "data": {
         "molecule_id": "F2H+_singlet_C1",

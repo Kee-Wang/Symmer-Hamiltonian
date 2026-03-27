@@ -2933,42 +2933,10 @@
         "YZZZYIXZZZZZXIII": 3.451030125027816e-08,
         "IYZZZYIXZZZZZXII": 3.451030125027816e-08,
         "XZZZXIYZZZZZYIII": 3.451030125027816e-08,
-        "IXZXIIIIIXZZZZZY": [
-            0.0,
-            -1.477475941806543e-08
-        ],
-        "YZYIIIIIYZZZZZXI": [
-            0.0,
-            1.477475941806543e-08
-        ],
-        "XZXIIIIIXZZZZZYI": [
-            0.0,
-            -1.477475941806543e-08
-        ],
-        "IYZYIIIIIYZZZZZX": [
-            0.0,
-            1.477475941806543e-08
-        ],
-        "YZXIIIIIXZZZZZXI": [
-            0.0,
-            1.4774759418010664e-08
-        ],
         "XZYIIIIIYZZZZZXI": 1.4774759418010664e-08,
         "YZXIIIIIXZZZZZYI": 1.4774759418010664e-08,
-        "XZYIIIIIYZZZZZYI": [
-            0.0,
-            -1.4774759418010664e-08
-        ],
-        "IYZXIIIIIXZZZZZX": [
-            0.0,
-            1.4774759418010664e-08
-        ],
         "IXZYIIIIIYZZZZZX": 1.4774759418010664e-08,
-        "IYZXIIIIIXZZZZZY": 1.4774759418010664e-08,
-        "IXZYIIIIIYZZZZZY": [
-            0.0,
-            -1.4774759418010664e-08
-        ]
+        "IYZXIIIIIXZZZZZY": 1.4774759418010664e-08
     },
     "data": {
         "molecule_id": "H3N_singlet_C3v",

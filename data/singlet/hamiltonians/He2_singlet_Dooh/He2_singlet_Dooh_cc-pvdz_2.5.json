@@ -1918,39 +1918,7 @@
         "IIXZZZZZZYIIYZZZZXII": -9.757112238463254e-08,
         "IIYZZZZZZXIIXZZZZYII": -9.757112238463254e-08,
         "IIIXZZZZXIIIIYZZYIII": 9.757112238463254e-08,
-        "IIXZZZZZZXIIYZZZZYII": 9.757112238463254e-08,
-        "IIIIXZZZZZZZYIYZYIII": [
-            0.0,
-            -1.5040298510659468e-08
-        ],
-        "IIIIIXZZZZZYIIIYZZZY": [
-            0.0,
-            -1.5040298510659468e-08
-        ],
-        "IIIIXZZZZZYIIIYZZZYI": [
-            0.0,
-            -1.5040298510659468e-08
-        ],
-        "IIIIIXZZZZZZZYIYZYII": [
-            0.0,
-            -1.5040298510659468e-08
-        ],
-        "IIIIIYZZZZZZZXIXZXII": [
-            0.0,
-            1.5040298510659468e-08
-        ],
-        "IIIIYZZZZZZZXIXZXIII": [
-            0.0,
-            1.5040298510659468e-08
-        ],
-        "IIIIIYZZZZZXIIIXZZZX": [
-            0.0,
-            1.5040298510659468e-08
-        ],
-        "IIIIYZZZZZXIIIXZZZXI": [
-            0.0,
-            1.5040298510659468e-08
-        ]
+        "IIXZZZZZZXIIYZZZZYII": 9.757112238463254e-08
     },
     "data": {
         "molecule_id": "He2_singlet_Dooh",

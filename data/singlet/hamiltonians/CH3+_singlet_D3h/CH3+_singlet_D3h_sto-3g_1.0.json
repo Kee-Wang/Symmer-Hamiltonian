@@ -1957,42 +1957,10 @@
         "IIIXZZZXZIIIIIII": -4.98921594398253e-08,
         "IIIYZZZYZIIIIIII": -4.98921594398253e-08,
         "IIXZZZXIIZIIIIII": -4.98921594398253e-08,
-        "IYZYIIIIIIIYZXII": [
-            0.0,
-            1.7135596664048333e-08
-        ],
-        "IXZXIIIIIIIXZYII": [
-            0.0,
-            -1.7135596664048333e-08
-        ],
-        "XZXIIIIIIIXZYIII": [
-            0.0,
-            -1.7135596664048333e-08
-        ],
-        "YZYIIIIIIIYZXIII": [
-            0.0,
-            1.7135596664048333e-08
-        ],
         "YZXIIIIIIIXZYIII": 1.7135596661552127e-08,
-        "IYZXIIIIIIIXZXII": [
-            0.0,
-            1.7135596661552127e-08
-        ],
         "IXZYIIIIIIIYZXII": 1.7135596661552127e-08,
         "IYZXIIIIIIIXZYII": 1.7135596661552127e-08,
-        "IXZYIIIIIIIYZYII": [
-            0.0,
-            -1.7135596661552127e-08
-        ],
-        "XZYIIIIIIIYZXIII": 1.7135596661552127e-08,
-        "XZYIIIIIIIYZYIII": [
-            0.0,
-            -1.7135596661552127e-08
-        ],
-        "YZXIIIIIIIXZXIII": [
-            0.0,
-            1.7135596661552127e-08
-        ]
+        "XZYIIIIIIIYZXIII": 1.7135596661552127e-08
     },
     "data": {
         "molecule_id": "CH3+_singlet_D3h",

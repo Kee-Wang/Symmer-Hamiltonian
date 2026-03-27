@@ -2688,63 +2688,7 @@
         "IYZZZZZZZZZIZZZY": -2.6963079219182477e-08,
         "IXZZZZZZZZZIZZZX": -2.6963079219182477e-08,
         "YZZZZZZZZZIZZZYI": -2.6963079219182477e-08,
-        "XZZZZZZZZZIZZZXI": -2.6963079219182477e-08,
-        "IIIYZXIIIYZYIIII": [
-            0.0,
-            -1.7139719015252218e-08
-        ],
-        "IIIXZYIIIXZXIIII": [
-            0.0,
-            1.7139719015252218e-08
-        ],
-        "IIYZXIIIYZYIIIII": [
-            0.0,
-            -1.7139719015252218e-08
-        ],
-        "IIXZYIIIXZXIIIII": [
-            0.0,
-            1.7139719015252218e-08
-        ],
-        "IIYZXIIIXZXIIIII": [
-            0.0,
-            -1.5489588884757673e-08
-        ],
-        "IIXZYIIIYZYIIIII": [
-            0.0,
-            1.5489588884757673e-08
-        ],
-        "IIIXZYIIIYZYIIII": [
-            0.0,
-            1.5489588884757673e-08
-        ],
-        "IIIYZXIIIXZXIIII": [
-            0.0,
-            -1.5489588884757673e-08
-        ],
-        "YZZZZZZZZZZZZZXI": [
-            0.0,
-            1.2079143659310648e-08
-        ],
-        "XZZZZZZZZZZZZZYI": [
-            0.0,
-            -1.2079143659310648e-08
-        ],
-        "YZZZZZZZZZIZZZXI": [
-            0.0,
-            -1.0449871072607407e-08
-        ],
-        "XZZZZZZZZZIZZZYI": [
-            0.0,
-            1.0449871072607407e-08
-        ],
-        "IYZZZZZZZZZIZZZX": [
-            0.0,
-            -1.0449871072607407e-08
-        ],
-        "IXZZZZZZZZZIZZZY": [
-            0.0,
-            1.0449871072607407e-08
-        ]
+        "XZZZZZZZZZIZZZXI": -2.6963079219182477e-08
     },
     "data": {
         "molecule_id": "D3N_singlet_C3v",
