@@ -1,0 +1,947 @@
+{
+  "_description": "Aggregate Coulson-Fisher point summary for all singlet species",
+  "_computed_with": "PySCF RHF/UHF with stability analysis and broken-symmetry DM propagation. 101-point alpha grid [0.5, 3.0] step 0.025.",
+  "timestamp": "2026-03-29T15:36:52.208745+00:00",
+  "n_species": 156,
+  "n_found": 138,
+  "n_not_found": 18,
+  "n_failed": 0,
+  "species": [
+    {
+      "molecule_id": "AlH2+_singlet_C2v",
+      "basis": "sto-3g",
+      "alpha_cf": 1.05,
+      "status": "found"
+    },
+    {
+      "molecule_id": "AlH2-_singlet_C2v",
+      "basis": "sto-3g",
+      "alpha_cf": 1.525,
+      "status": "found"
+    },
+    {
+      "molecule_id": "AlH3_singlet_D3h",
+      "basis": "sto-3g",
+      "alpha_cf": 1.225,
+      "status": "found"
+    },
+    {
+      "molecule_id": "AlH_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.325,
+      "status": "found"
+    },
+    {
+      "molecule_id": "ArH+_singlet_C1",
+      "basis": "sto-3g",
+      "alpha_cf": null,
+      "status": "not_found"
+    },
+    {
+      "molecule_id": "ArH2_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.55,
+      "status": "found"
+    },
+    {
+      "molecule_id": "B2H2_singlet_Dooh",
+      "basis": "sto-3g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "BF_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.05,
+      "status": "found"
+    },
+    {
+      "molecule_id": "BH2+_singlet_C2v",
+      "basis": "sto-3g",
+      "alpha_cf": 1.3,
+      "status": "found"
+    },
+    {
+      "molecule_id": "BH2N_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.075,
+      "status": "found"
+    },
+    {
+      "molecule_id": "BH3_singlet_C2v",
+      "basis": "sto-3g",
+      "alpha_cf": 1.425,
+      "status": "found"
+    },
+    {
+      "molecule_id": "BH4-_singlet_D2d",
+      "basis": "sto-3g",
+      "alpha_cf": 1.45,
+      "status": "found"
+    },
+    {
+      "molecule_id": "BHO_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.075,
+      "status": "found"
+    },
+    {
+      "molecule_id": "BH_singlet_Coov",
+      "basis": "3-21g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "BH_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "BO+_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "BO-_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.2696,
+      "status": "found"
+    },
+    {
+      "molecule_id": "Be2_singlet_Dooh",
+      "basis": "sto-3g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "BeF+_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.1963,
+      "status": "found"
+    },
+    {
+      "molecule_id": "BeF-_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.0742,
+      "status": "found"
+    },
+    {
+      "molecule_id": "BeH+_singlet_Coov",
+      "basis": "3-21g",
+      "alpha_cf": 1.225,
+      "status": "found"
+    },
+    {
+      "molecule_id": "BeH+_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.225,
+      "status": "found"
+    },
+    {
+      "molecule_id": "BeH-_singlet_Coov",
+      "basis": "3-21g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "BeH-_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "BeH2_singlet_Dooh",
+      "basis": "sto-3g",
+      "alpha_cf": 1.4,
+      "status": "found"
+    },
+    {
+      "molecule_id": "BeN-_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 0.5261,
+      "status": "found"
+    },
+    {
+      "molecule_id": "BeO_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "C2H-_singlet_Cs",
+      "basis": "sto-3g",
+      "alpha_cf": 1.025,
+      "status": "found"
+    },
+    {
+      "molecule_id": "C2H2_singlet_C2v",
+      "basis": "sto-3g",
+      "alpha_cf": 0.675,
+      "status": "found"
+    },
+    {
+      "molecule_id": "C2H2_singlet_Dooh",
+      "basis": "sto-3g",
+      "alpha_cf": 0.975,
+      "status": "found"
+    },
+    {
+      "molecule_id": "C2_singlet_Dooh",
+      "basis": "sto-3g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CD4_singlet_Td",
+      "basis": "sto-3g",
+      "alpha_cf": 1.4,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CF+_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.2045,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CH+_singlet_Coov",
+      "basis": "3-21g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CH+_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CH-_singlet_Coov",
+      "basis": "3-21g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CH-_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CH2D2_singlet_C2v",
+      "basis": "sto-3g",
+      "alpha_cf": 1.4,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CH2N+_singlet_C2v",
+      "basis": "sto-3g",
+      "alpha_cf": 0.8736,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CH2N+_singlet_C2v_2",
+      "basis": "sto-3g",
+      "alpha_cf": 0.6497,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CH2O_singlet_C2v",
+      "basis": "sto-3g",
+      "alpha_cf": 0.95,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CH3+_singlet_D3h",
+      "basis": "sto-3g",
+      "alpha_cf": 1.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CH3-_singlet_D3h",
+      "basis": "sto-3g",
+      "alpha_cf": 1.25,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CH3D_singlet_C3v",
+      "basis": "sto-3g",
+      "alpha_cf": 1.4,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CH4_singlet_Td",
+      "basis": "sto-3g",
+      "alpha_cf": 1.4,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CHD3_singlet_C3v",
+      "basis": "sto-3g",
+      "alpha_cf": 1.4,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CHF_singlet_Cs",
+      "basis": "sto-3g",
+      "alpha_cf": 0.6,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CHN_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.075,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CHN_singlet_Coov_2",
+      "basis": "sto-3g",
+      "alpha_cf": 0.975,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CHO+_singlet_Cs",
+      "basis": "sto-3g",
+      "alpha_cf": 0.85,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CHO+_singlet_Cs_2",
+      "basis": "sto-3g",
+      "alpha_cf": 1.2085,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CHO-_singlet_Cs",
+      "basis": "sto-3g",
+      "alpha_cf": 0.85,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CN+_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CN-_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.025,
+      "status": "found"
+    },
+    {
+      "molecule_id": "CO_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.1,
+      "status": "found"
+    },
+    {
+      "molecule_id": "ClD_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.3,
+      "status": "found"
+    },
+    {
+      "molecule_id": "ClH2+_singlet_C1",
+      "basis": "sto-3g",
+      "alpha_cf": 1.35,
+      "status": "found"
+    },
+    {
+      "molecule_id": "ClH_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.3,
+      "status": "found"
+    },
+    {
+      "molecule_id": "D2O_singlet_C2v",
+      "basis": "sto-3g",
+      "alpha_cf": 1.3,
+      "status": "found"
+    },
+    {
+      "molecule_id": "D2S_singlet_C2v",
+      "basis": "sto-3g",
+      "alpha_cf": 1.25,
+      "status": "found"
+    },
+    {
+      "molecule_id": "D2_singlet_Dooh",
+      "basis": "3-21g",
+      "alpha_cf": 1.5998,
+      "status": "found"
+    },
+    {
+      "molecule_id": "D2_singlet_Dooh",
+      "basis": "6-311g**",
+      "alpha_cf": 1.625,
+      "status": "found"
+    },
+    {
+      "molecule_id": "D2_singlet_Dooh",
+      "basis": "6-31g**",
+      "alpha_cf": 1.625,
+      "status": "found"
+    },
+    {
+      "molecule_id": "D2_singlet_Dooh",
+      "basis": "cc-pvdz",
+      "alpha_cf": 1.625,
+      "status": "found"
+    },
+    {
+      "molecule_id": "D2_singlet_Dooh",
+      "basis": "sto-3g",
+      "alpha_cf": 1.55,
+      "status": "found"
+    },
+    {
+      "molecule_id": "D3N_singlet_C3v",
+      "basis": "sto-3g",
+      "alpha_cf": 1.325,
+      "status": "found"
+    },
+    {
+      "molecule_id": "DF_singlet_Coov",
+      "basis": "3-21g",
+      "alpha_cf": 1.375,
+      "status": "found"
+    },
+    {
+      "molecule_id": "DF_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.3,
+      "status": "found"
+    },
+    {
+      "molecule_id": "DHO_singlet_Cs",
+      "basis": "sto-3g",
+      "alpha_cf": 1.3,
+      "status": "found"
+    },
+    {
+      "molecule_id": "DH_singlet_Coov",
+      "basis": "3-21g",
+      "alpha_cf": 1.5998,
+      "status": "found"
+    },
+    {
+      "molecule_id": "DH_singlet_Coov",
+      "basis": "6-311g**",
+      "alpha_cf": 1.625,
+      "status": "found"
+    },
+    {
+      "molecule_id": "DH_singlet_Coov",
+      "basis": "6-31g**",
+      "alpha_cf": 1.625,
+      "status": "found"
+    },
+    {
+      "molecule_id": "DH_singlet_Coov",
+      "basis": "cc-pvdz",
+      "alpha_cf": 1.625,
+      "status": "found"
+    },
+    {
+      "molecule_id": "DH_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.55,
+      "status": "found"
+    },
+    {
+      "molecule_id": "F2H+_singlet_C1",
+      "basis": "sto-3g",
+      "alpha_cf": 0.95,
+      "status": "found"
+    },
+    {
+      "molecule_id": "F2H-_singlet_Dooh",
+      "basis": "sto-3g",
+      "alpha_cf": 1.2,
+      "status": "found"
+    },
+    {
+      "molecule_id": "F2_singlet_Dooh",
+      "basis": "sto-3g",
+      "alpha_cf": 0.95,
+      "status": "found"
+    },
+    {
+      "molecule_id": "FH2+_singlet_C1",
+      "basis": "sto-3g",
+      "alpha_cf": 1.35,
+      "status": "found"
+    },
+    {
+      "molecule_id": "FHO_singlet_Cs",
+      "basis": "sto-3g",
+      "alpha_cf": 0.975,
+      "status": "found"
+    },
+    {
+      "molecule_id": "FH_singlet_Coov",
+      "basis": "3-21g",
+      "alpha_cf": 1.375,
+      "status": "found"
+    },
+    {
+      "molecule_id": "FH_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.3,
+      "status": "found"
+    },
+    {
+      "molecule_id": "FLi_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.1584,
+      "status": "found"
+    },
+    {
+      "molecule_id": "FO+_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "FO-_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.15,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H10_singlet_Dooh",
+      "basis": "sto-3g",
+      "alpha_cf": 0.85,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H2LiN_singlet_C2v",
+      "basis": "sto-3g",
+      "alpha_cf": 1.0444,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H2Mg_singlet_Dooh",
+      "basis": "sto-3g",
+      "alpha_cf": 1.3,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H2N-_singlet_C2v",
+      "basis": "sto-3g",
+      "alpha_cf": 1.3999,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H2N2_singlet_C2h",
+      "basis": "sto-3g",
+      "alpha_cf": 0.925,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H2N2_singlet_C2v",
+      "basis": "sto-3g",
+      "alpha_cf": 0.925,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H2N2_singlet_C2v_2",
+      "basis": "sto-3g",
+      "alpha_cf": 0.9,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H2O2_singlet_C2h",
+      "basis": "sto-3g",
+      "alpha_cf": 1.0,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H2O2_singlet_C2v",
+      "basis": "sto-3g",
+      "alpha_cf": 1.0249,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H2O_singlet_C2v",
+      "basis": "sto-3g",
+      "alpha_cf": 1.3,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H2P+_singlet_C2v",
+      "basis": "sto-3g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H2P-_singlet_C2v",
+      "basis": "sto-3g",
+      "alpha_cf": 1.325,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H2S_singlet_C2v",
+      "basis": "sto-3g",
+      "alpha_cf": 1.25,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H2Si_singlet_C2v",
+      "basis": "sto-3g",
+      "alpha_cf": 1.25,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H2_singlet_Dooh",
+      "basis": "3-21g",
+      "alpha_cf": 1.5998,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H2_singlet_Dooh",
+      "basis": "6-311g**",
+      "alpha_cf": 1.625,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H2_singlet_Dooh",
+      "basis": "6-31g**",
+      "alpha_cf": 1.625,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H2_singlet_Dooh",
+      "basis": "cc-pvdz",
+      "alpha_cf": 1.625,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H2_singlet_Dooh",
+      "basis": "sto-3g",
+      "alpha_cf": 1.55,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H3+_singlet_C1",
+      "basis": "3-21g",
+      "alpha_cf": 1.85,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H3+_singlet_C1",
+      "basis": "sto-3g",
+      "alpha_cf": 1.75,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H3+_singlet_D3h",
+      "basis": "3-21g",
+      "alpha_cf": 1.875,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H3+_singlet_D3h",
+      "basis": "sto-3g",
+      "alpha_cf": 1.775,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H3N_singlet_C3v",
+      "basis": "sto-3g",
+      "alpha_cf": 1.35,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H3N_singlet_Cs",
+      "basis": "sto-3g",
+      "alpha_cf": 1.275,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H3O+_singlet_C1",
+      "basis": "sto-3g",
+      "alpha_cf": 1.4,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H3O+_singlet_C3v",
+      "basis": "sto-3g",
+      "alpha_cf": 1.375,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H4N+_singlet_Td",
+      "basis": "sto-3g",
+      "alpha_cf": 1.375,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H4_singlet_D4h",
+      "basis": "3-21g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H4_singlet_D4h",
+      "basis": "sto-3g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H4_singlet_Dooh",
+      "basis": "3-21g",
+      "alpha_cf": 1.05,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H4_singlet_Dooh",
+      "basis": "sto-3g",
+      "alpha_cf": 1.025,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H6_singlet_Dooh",
+      "basis": "3-21g",
+      "alpha_cf": 0.95,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H6_singlet_Dooh",
+      "basis": "sto-3g",
+      "alpha_cf": 0.95,
+      "status": "found"
+    },
+    {
+      "molecule_id": "H8_singlet_Dooh",
+      "basis": "sto-3g",
+      "alpha_cf": 0.875,
+      "status": "found"
+    },
+    {
+      "molecule_id": "HHe+_singlet_Coov",
+      "basis": "3-21g",
+      "alpha_cf": null,
+      "status": "not_found"
+    },
+    {
+      "molecule_id": "HHe+_singlet_Coov",
+      "basis": "6-311g**",
+      "alpha_cf": null,
+      "status": "not_found"
+    },
+    {
+      "molecule_id": "HHe+_singlet_Coov",
+      "basis": "6-31g**",
+      "alpha_cf": null,
+      "status": "not_found"
+    },
+    {
+      "molecule_id": "HHe+_singlet_Coov",
+      "basis": "cc-pvdz",
+      "alpha_cf": null,
+      "status": "not_found"
+    },
+    {
+      "molecule_id": "HHe+_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": null,
+      "status": "not_found"
+    },
+    {
+      "molecule_id": "HLiO_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.1157,
+      "status": "found"
+    },
+    {
+      "molecule_id": "HLi_singlet_Coov",
+      "basis": "3-21g",
+      "alpha_cf": 1.375,
+      "status": "found"
+    },
+    {
+      "molecule_id": "HLi_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.275,
+      "status": "found"
+    },
+    {
+      "molecule_id": "HMg+_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 0.9999,
+      "status": "found"
+    },
+    {
+      "molecule_id": "HMg-_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": null,
+      "status": "not_found"
+    },
+    {
+      "molecule_id": "HN2+_singlet_Cs",
+      "basis": "sto-3g",
+      "alpha_cf": 1.0,
+      "status": "found"
+    },
+    {
+      "molecule_id": "HNO_singlet_Cs",
+      "basis": "sto-3g",
+      "alpha_cf": 0.75,
+      "status": "found"
+    },
+    {
+      "molecule_id": "HNO_singlet_Cs_2",
+      "basis": "sto-3g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "HN_singlet_Coov",
+      "basis": "3-21g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "HN_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "HNa_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.375,
+      "status": "found"
+    },
+    {
+      "molecule_id": "HNe+_singlet_Coov",
+      "basis": "3-21g",
+      "alpha_cf": null,
+      "status": "not_found"
+    },
+    {
+      "molecule_id": "HNe+_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": null,
+      "status": "not_found"
+    },
+    {
+      "molecule_id": "HO-_singlet_Coov",
+      "basis": "3-21g",
+      "alpha_cf": 1.375,
+      "status": "found"
+    },
+    {
+      "molecule_id": "HO-_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "HO2-_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.225,
+      "status": "found"
+    },
+    {
+      "molecule_id": "HS-_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.35,
+      "status": "found"
+    },
+    {
+      "molecule_id": "HSi+_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 1.225,
+      "status": "found"
+    },
+    {
+      "molecule_id": "He2_singlet_Dooh",
+      "basis": "3-21g",
+      "alpha_cf": null,
+      "status": "not_found"
+    },
+    {
+      "molecule_id": "He2_singlet_Dooh",
+      "basis": "6-311g**",
+      "alpha_cf": null,
+      "status": "not_found"
+    },
+    {
+      "molecule_id": "He2_singlet_Dooh",
+      "basis": "6-31g**",
+      "alpha_cf": null,
+      "status": "not_found"
+    },
+    {
+      "molecule_id": "He2_singlet_Dooh",
+      "basis": "cc-pvdz",
+      "alpha_cf": null,
+      "status": "not_found"
+    },
+    {
+      "molecule_id": "He2_singlet_Dooh",
+      "basis": "sto-3g",
+      "alpha_cf": null,
+      "status": "not_found"
+    },
+    {
+      "molecule_id": "HeLi+_singlet_C1",
+      "basis": "3-21g",
+      "alpha_cf": null,
+      "status": "not_found"
+    },
+    {
+      "molecule_id": "HeLi+_singlet_C1",
+      "basis": "sto-3g",
+      "alpha_cf": null,
+      "status": "not_found"
+    },
+    {
+      "molecule_id": "Li2_singlet_Dooh",
+      "basis": "sto-3g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "LiNe+_singlet_C1",
+      "basis": "sto-3g",
+      "alpha_cf": null,
+      "status": "not_found"
+    },
+    {
+      "molecule_id": "LiO-_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 0.5,
+      "status": "found"
+    },
+    {
+      "molecule_id": "N2_singlet_Dooh",
+      "basis": "sto-3g",
+      "alpha_cf": 1.0,
+      "status": "found"
+    },
+    {
+      "molecule_id": "NO+_singlet_Coov",
+      "basis": "sto-3g",
+      "alpha_cf": 0.925,
+      "status": "found"
+    },
+    {
+      "molecule_id": "Ne2_singlet_Dooh",
+      "basis": "sto-3g",
+      "alpha_cf": null,
+      "status": "not_found"
+    },
+    {
+      "molecule_id": "O2--_singlet_Dooh",
+      "basis": "sto-3g",
+      "alpha_cf": 1.275,
+      "status": "found"
+    }
+  ]
+}
