@@ -92,7 +92,7 @@ for cycle in range(5):
     mf.kernel(dm0=dm)
 ```
 
-PySCF's `stability(return_status=True)` computes the orbital Hessian eigenvalues. For UHF, the *internal* stability check detects UHF$\to$UHF instabilities — i.e., whether a lower-energy UHF solution exists with different orbital rotations. If unstable, the new MO coefficients `mo_internal` point along the descent direction.
+PySCF's `stability(return_status=True)` computes the orbital Hessian eigenvalues. For UHF, the *internal* stability check detects $\mathrm{UHF} \to \mathrm{UHF}$ instabilities — i.e., whether a lower-energy UHF solution exists with different orbital rotations. If unstable, the new MO coefficients `mo_internal` point along the descent direction.
 
 **Collapse detection and early termination:**
 
