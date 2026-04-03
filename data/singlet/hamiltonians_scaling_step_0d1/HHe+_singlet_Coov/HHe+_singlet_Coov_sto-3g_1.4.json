@@ -1,0 +1,139 @@
+{
+  "hamiltonian": {
+    "IIII": -1.8062728615575068,
+    "IZII": 0.7142472951512664,
+    "ZIII": 0.7142472951512663,
+    "ZZII": 0.23926330842650304,
+    "IIIZ": 0.22197243864067606,
+    "IIZI": 0.221972438640676,
+    "IIZZ": 0.1865859959647,
+    "IZZI": 0.13402953460553876,
+    "ZIIZ": 0.13402953460553876,
+    "IZIZ": 0.10780933786470309,
+    "ZIZI": 0.10780933786470309,
+    "YZYI": 0.06065041363740509,
+    "IXZX": 0.06065041363740509,
+    "IYZY": 0.06065041363740509,
+    "XZXI": 0.06065041363740509,
+    "XIXI": 0.0433946737073924,
+    "YIYI": 0.0433946737073924,
+    "ZXZX": 0.0433946737073924,
+    "ZYZY": 0.0433946737073924,
+    "XXYY": -0.026220196740835672,
+    "XYYX": 0.026220196740835672,
+    "YXXY": 0.026220196740835672,
+    "YYXX": -0.026220196740835672,
+    "IXIX": -0.017264262620847234,
+    "XZXZ": -0.017264262620847234,
+    "YZYZ": -0.017264262620847234,
+    "IYIY": -0.017264262620847234
+  },
+  "data": {
+    "molecule_id": "HHe+_singlet_Coov",
+    "qubit_encoding": "JW",
+    "unit": "Angstrom",
+    "basis": "sto-3g",
+    "charge": 1,
+    "multiplicity": 1,
+    "spin": 0,
+    "geometry": "He 0.4132600000 0.0000000000 0.0000000000\nH -0.6714600000 0.0000000000 0.0000000000",
+    "n_qubits": 4,
+    "n_particles": {
+      "total": 2,
+      "alpha": 1,
+      "beta": 1
+    },
+    "hf_array": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "hf_method": "pyscf.scf.hf_symm.SymAdaptedRHF",
+    "convergence_threshold": 1e-06,
+    "point_group": {
+      "groupname": "Coov",
+      "topgroup": "Coov"
+    },
+    "alpha": 1.4,
+    "calculated_properties": {
+      "HF": {
+        "energy": -2.8486510151279663,
+        "converged": true
+      },
+      "MP2": {
+        "energy": -2.8536502366083325,
+        "converged": false
+      },
+      "CISD": {
+        "energy": -2.854682347774988,
+        "converged": true
+      },
+      "CCSD": {
+        "energy": -2.854682242172933,
+        "converged": true
+      },
+      "FCI": {
+        "energy": -2.85468234777499,
+        "converged": true,
+        "spin_matches_target": true,
+        "multiplicity": 0.9999999999999998,
+        "oscillatory_converged": false,
+        "oscillation_energy_change": null
+      }
+    },
+    "auxiliary_operators": {
+      "number_operator": {
+        "IIII": 2.0,
+        "ZIII": -0.5,
+        "IZII": -0.5,
+        "IIZI": -0.5,
+        "IIIZ": -0.5
+      },
+      "N_alpha": {
+        "IIII": 1.0,
+        "ZIII": -0.5,
+        "IIZI": -0.5
+      },
+      "N_beta": {
+        "IIII": 1.0,
+        "IZII": -0.5,
+        "IIIZ": -0.5
+      },
+      "S^2_operator": {
+        "IIII": 0.75,
+        "ZZII": -0.375,
+        "IIZZ": -0.375,
+        "YXYX": 0.125,
+        "YXXY": -0.125,
+        "XXYY": 0.125,
+        "XXXX": 0.125,
+        "YYYY": 0.125,
+        "YYXX": 0.125,
+        "XYYX": -0.125,
+        "XYXY": 0.125,
+        "ZIZI": 0.125,
+        "ZIIZ": -0.125,
+        "IZZI": -0.125,
+        "IZIZ": 0.125
+      },
+      "UCCSD_operator": {
+        "YZXI": 0.008955648928509682,
+        "XZYI": -0.008955648928509682,
+        "IYZX": 0.008955648928509682,
+        "IXZY": -0.008955648928509682,
+        "XXYX": 0.007227567481014935,
+        "YYYX": -0.007227567481014935,
+        "YXYY": 0.007227567481014935,
+        "XYYY": 0.007227567481014935,
+        "YXXX": -0.007227567481014935,
+        "XYXX": -0.007227567481014935,
+        "XXXY": 0.007227567481014935,
+        "YYXY": -0.007227567481014935
+      }
+    },
+    "hf_method_fallback": "standard",
+    "generation_time_s": 0.015,
+    "timestamp": "2026-04-03T21:43:52.672358+00:00"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "hamiltonian": {
+    "IIII": -0.5400818537010723,
+    "IIZZ": 0.12961042484382812,
+    "ZIIZ": 0.1265351877955903,
+    "IZZI": 0.1265351877955903,
+    "ZZII": 0.12427518687552609,
+    "XXYY": -0.06757845249768979,
+    "XYYX": 0.06757845249768979,
+    "YXXY": 0.06757845249768979,
+    "YYXX": -0.06757845249768979,
+    "ZIII": 0.05957851580926715,
+    "IZII": 0.05957851580926714,
+    "ZIZI": 0.058956735297900534,
+    "IZIZ": 0.058956735297900534,
+    "IIZI": 0.016986681036037454,
+    "IIIZ": 0.016986681036037454
+  },
+  "data": {
+    "molecule_id": "H2_singlet_Dooh",
+    "qubit_encoding": "JW",
+    "unit": "Angstrom",
+    "basis": "sto-3g",
+    "charge": 0,
+    "multiplicity": 1,
+    "spin": 0,
+    "geometry": "H 0.0000000000 0.0000000000 -0.7414000000\nH 0.0000000000 0.0000000000 1.4828000000",
+    "n_qubits": 4,
+    "n_particles": {
+      "total": 2,
+      "alpha": 1,
+      "beta": 1
+    },
+    "hf_array": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "hf_method": "pyscf.scf.hf_symm.SymAdaptedRHF",
+    "convergence_threshold": 1e-06,
+    "point_group": {
+      "groupname": "Dooh",
+      "topgroup": "Dooh"
+    },
+    "alpha": 3.0,
+    "calculated_properties": {
+      "HF": {
+        "energy": -0.742363757715159,
+        "converged": true
+      },
+      "MP2": {
+        "energy": -0.8567565252477333,
+        "converged": false
+      },
+      "CISD": {
+        "energy": -0.9405981776215797,
+        "converged": true
+      },
+      "CCSD": {
+        "energy": -0.9405981779169112,
+        "converged": true
+      },
+      "FCI": {
+        "energy": -0.9405981776215795,
+        "converged": true,
+        "spin_matches_target": true,
+        "multiplicity": 1.0,
+        "oscillatory_converged": false,
+        "oscillation_energy_change": null
+      }
+    },
+    "auxiliary_operators": {
+      "number_operator": {
+        "IIII": 2.0,
+        "ZIII": -0.5,
+        "IZII": -0.5,
+        "IIZI": -0.5,
+        "IIIZ": -0.5
+      },
+      "N_alpha": {
+        "IIII": 1.0,
+        "ZIII": -0.5,
+        "IIZI": -0.5
+      },
+      "N_beta": {
+        "IIII": 1.0,
+        "IZII": -0.5,
+        "IIIZ": -0.5
+      },
+      "S^2_operator": {
+        "IIII": 0.75,
+        "ZZII": -0.375,
+        "IIZZ": -0.375,
+        "YXYX": 0.125,
+        "YXXY": -0.125,
+        "XXYY": 0.125,
+        "XXXX": 0.125,
+        "YYYY": 0.125,
+        "YYXX": 0.125,
+        "XYYX": -0.125,
+        "XYXY": 0.125,
+        "ZIZI": 0.125,
+        "ZIIZ": -0.125,
+        "IZZI": -0.125,
+        "IZIZ": 0.125
+      },
+      "UCCSD_operator": {
+        "XXYX": 0.09166865180164539,
+        "YYYX": -0.09166865180164539,
+        "YXYY": 0.09166865180164539,
+        "XYYY": 0.09166865180164539,
+        "YXXX": -0.09166865180164539,
+        "XYXX": -0.09166865180164539,
+        "XXXY": 0.09166865180164539,
+        "YYXY": -0.09166865180164539
+      }
+    },
+    "hf_method_fallback": "standard",
+    "generation_time_s": 0.02,
+    "timestamp": "2026-04-03T21:43:52.503556+00:00"
+  }
+}
