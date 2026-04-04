@@ -33,7 +33,15 @@ Total generation time: ~62 min.
 
 Each Hamiltonian in this database is produced by the following pipeline:
 
-1. **Geometry sourcing.** Equilibrium nuclear coordinates are retrieved from one of three repositories: [NIST CCCBDB](https://github.com/Kee-Wang/NIST-CCCBDB-database-mirror), PennyLane molecular datasets, or the Symmer reference collection. Species are included only if the tapered qubit count is ≤ 20.
+1. **Geometry sourcing.** Equilibrium nuclear coordinates are selected from one of three repositories using a quality-based priority (see below). Species are included only if the tapered qubit count is ≤ 20.
+
+   **Geometry source priority:**
+   1. CCCBDB experimental geometry (spectroscopic data from [NIST CCCBDB](https://github.com/Kee-Wang/NIST-CCCBDB-database-mirror))
+   2. PennyLane molecular datasets (CCSD(T)/aug-cc-pVQZ optimised geometries)
+   3. Symmer reference collection (provenance varies; method not always documented)
+   4. CCCBDB calculated geometry (HF/STO-3G optimised)
+
+   CCCBDB calculated geometries are deprioritised because HF/STO-3G is the lowest rung of ab initio theory and can produce bond-length errors exceeding 10% (e.g. $\mathrm{H_3^+}$: HF/STO-3G gives $R_{\mathrm{H\text{-}H}} = 0.986$ Å vs experimental $0.873$ Å). PennyLane's coupled-cluster geometries are near-exact (typically $< 0.003$ Å MAE). Per-species geometry provenance is recorded in the `geometry_from` and `geometry_source` fields of [`species_list.json`](../data/singlet/species_list.json). Each Hamiltonian is self-consistent: all computed energies (HF, MP2, CISD, CCSD, FCI) are evaluated at the same geometry stored in the file.
 2. **Geometry scaling.** For multi-atom species, the equilibrium geometry is uniformly scaled by a factor $\alpha \in \{0.5, 0.7, 0.8, 0.9, 1.0, 1.2, 1.5, 2.0, 2.5, 3.0\}$ to sample the dissociation coordinate. Single-atom species use $\alpha = 1.0$ only.
 3. **Self-consistent field (SCF) calculation.** A restricted Hartree-Fock calculation is performed using PySCF with a three-stage convergence cascade (see Section 2.2).
 4. **Post-Hartree-Fock methods.** Starting from the converged HF orbitals, the following correlated methods are run in sequence: MP2, CISD, CCSD, and FCI (full configuration interaction).  FCI provides the exact energy within the chosen basis set and serves as the ground-truth reference for quantum-algorithm benchmarks.
