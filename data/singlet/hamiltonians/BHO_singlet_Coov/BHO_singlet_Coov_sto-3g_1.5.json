@@ -10188,6 +10188,7 @@
         },
         "hf_method_fallback": "standard",
         "generation_time_s": 20.265,
-        "timestamp": "2026-03-10T22:15:01.774274+00:00"
+        "timestamp": "2026-03-10T22:15:01.774274+00:00",
+        "formula_latex": "$\\mathrm{BHO}$"
     }
 }

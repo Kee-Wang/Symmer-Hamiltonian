@@ -118,6 +118,7 @@
         },
         "hf_method_fallback": "standard",
         "generation_time_s": 0.591,
-        "timestamp": "2026-03-10T21:59:16.614669+00:00"
+        "timestamp": "2026-03-10T21:59:16.614669+00:00",
+        "formula_latex": "$\\mathrm{D_{2}}$"
     }
 }

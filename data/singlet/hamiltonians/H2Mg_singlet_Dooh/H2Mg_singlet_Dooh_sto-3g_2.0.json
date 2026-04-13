@@ -5688,6 +5688,7 @@
         },
         "hf_method_fallback": "standard",
         "generation_time_s": 30.529,
-        "timestamp": "2026-03-10T21:34:13.419806+00:00"
+        "timestamp": "2026-03-10T21:34:13.419806+00:00",
+        "formula_latex": "$\\mathrm{H_{2}Mg}$"
     }
 }

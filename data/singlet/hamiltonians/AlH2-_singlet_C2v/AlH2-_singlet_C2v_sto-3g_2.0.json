@@ -8588,6 +8588,7 @@
         },
         "hf_method_fallback": "standard",
         "generation_time_s": 29.271,
-        "timestamp": "2026-03-10T21:15:34.868758+00:00"
+        "timestamp": "2026-03-10T21:15:34.868758+00:00",
+        "formula_latex": "$\\mathrm{AlH_{2}^{-}}$"
     }
 }

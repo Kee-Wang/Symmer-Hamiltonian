@@ -5402,6 +5402,7 @@
     },
     "hf_method_fallback": "newton",
     "generation_time_s": 0.571,
-    "timestamp": "2026-04-03T21:58:49.000016+00:00"
+    "timestamp": "2026-04-03T21:58:49.000016+00:00",
+    "formula_latex": "$\\mathrm{FO^{+}}$"
   }
 }

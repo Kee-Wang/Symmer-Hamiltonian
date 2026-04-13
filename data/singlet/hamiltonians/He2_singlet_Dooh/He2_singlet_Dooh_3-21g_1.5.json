@@ -406,6 +406,7 @@
         },
         "hf_method_fallback": "standard",
         "generation_time_s": 1.623,
-        "timestamp": "2026-03-10T21:33:31.570199+00:00"
+        "timestamp": "2026-03-10T21:33:31.570199+00:00",
+        "formula_latex": "$\\mathrm{He_{2}}$"
     }
 }

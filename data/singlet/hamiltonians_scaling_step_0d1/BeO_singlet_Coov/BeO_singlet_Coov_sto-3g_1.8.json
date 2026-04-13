@@ -6918,6 +6918,7 @@
     },
     "hf_method_fallback": "standard",
     "generation_time_s": 1.291,
-    "timestamp": "2026-04-03T21:55:34.200697+00:00"
+    "timestamp": "2026-04-03T21:55:34.200697+00:00",
+    "formula_latex": "$\\mathrm{BeO}$"
   }
 }

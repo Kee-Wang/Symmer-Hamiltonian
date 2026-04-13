@@ -4442,6 +4442,7 @@
         },
         "hf_method_fallback": "standard",
         "generation_time_s": 23.203,
-        "timestamp": "2026-03-10T21:13:57.805347+00:00"
+        "timestamp": "2026-03-10T21:13:57.805347+00:00",
+        "formula_latex": "$\\mathrm{LiNe^{+}}$"
     }
 }

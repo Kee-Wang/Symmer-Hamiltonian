@@ -4170,6 +4170,7 @@
     },
     "hf_method_fallback": "standard",
     "generation_time_s": 0.329,
-    "timestamp": "2026-04-03T21:46:37.547236+00:00"
+    "timestamp": "2026-04-03T21:46:37.547236+00:00",
+    "formula_latex": "$\\mathrm{H_{3}O^{+}}$"
   }
 }

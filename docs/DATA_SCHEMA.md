@@ -50,6 +50,7 @@ The identity term (`"IIII"`) represents the energy offset (nuclear repulsion + c
 | Field | Type | Description |
 |-------|------|-------------|
 | `molecule_id` | string | Unique species identifier: `{formula}_{multiplicity}_{point_group}` |
+| `formula_latex` | string | Matplotlib-ready LaTeX math-mode string of chemical formula with charge, e.g. `"$\mathrm{AlH_{2}^{+}}$"`. Ready to drop into `ax.set_title(...)`. Note: does not disambiguate spin states — two electronic states of the same molecule share `formula_latex`. |
 | `qubit_encoding` | string | Fermion-to-qubit mapping, always `"JW"` (Jordan-Wigner) |
 | `unit` | string | Physical unit for geometry, always `"Angstrom"` |
 | `basis` | string | Gaussian basis set (e.g. `"sto-3g"`, `"cc-pvdz"`) |

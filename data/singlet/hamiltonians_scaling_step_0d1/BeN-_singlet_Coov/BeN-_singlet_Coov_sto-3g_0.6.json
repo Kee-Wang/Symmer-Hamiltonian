@@ -6922,6 +6922,7 @@
     },
     "hf_method_fallback": "level_shift",
     "generation_time_s": 1.224,
-    "timestamp": "2026-04-03T21:55:21.837488+00:00"
+    "timestamp": "2026-04-03T21:55:21.837488+00:00",
+    "formula_latex": "$\\mathrm{BeN^{-}}$"
   }
 }

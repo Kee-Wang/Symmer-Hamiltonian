@@ -15800,6 +15800,7 @@
         },
         "hf_method_fallback": "standard",
         "generation_time_s": 101.341,
-        "timestamp": "2026-03-10T21:21:23.143491+00:00"
+        "timestamp": "2026-03-10T21:21:23.143491+00:00",
+        "formula_latex": "$\\mathrm{CHO^{-}}$"
     }
 }

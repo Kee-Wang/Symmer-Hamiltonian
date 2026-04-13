@@ -11936,6 +11936,7 @@
         },
         "hf_method_fallback": "standard",
         "generation_time_s": 3.154,
-        "timestamp": "2026-03-11T01:09:10.489536+00:00"
+        "timestamp": "2026-03-11T01:09:10.489536+00:00",
+        "formula_latex": "$\\mathrm{H_{2}Si}$"
     }
 }

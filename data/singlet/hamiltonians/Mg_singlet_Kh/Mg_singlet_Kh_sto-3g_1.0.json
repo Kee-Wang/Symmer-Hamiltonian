@@ -2500,6 +2500,7 @@
         },
         "hf_method_fallback": "standard",
         "generation_time_s": 12.01,
-        "timestamp": "2026-03-10T21:22:28.964476+00:00"
+        "timestamp": "2026-03-10T21:22:28.964476+00:00",
+        "formula_latex": "$\\mathrm{Mg}$"
     }
 }

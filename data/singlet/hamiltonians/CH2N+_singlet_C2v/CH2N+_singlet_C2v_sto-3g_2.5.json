@@ -13654,6 +13654,7 @@
         },
         "hf_method_fallback": "standard",
         "generation_time_s": 355.285,
-        "timestamp": "2026-03-10T21:46:44.044167+00:00"
+        "timestamp": "2026-03-10T21:46:44.044167+00:00",
+        "formula_latex": "$\\mathrm{CH_{2}N^{+}}$"
     }
 }

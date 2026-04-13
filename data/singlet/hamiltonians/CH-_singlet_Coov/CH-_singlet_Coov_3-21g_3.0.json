@@ -10156,6 +10156,7 @@
         },
         "hf_method_fallback": "newton",
         "generation_time_s": 48.726,
-        "timestamp": "2026-03-10T21:25:19.048855+00:00"
+        "timestamp": "2026-03-10T21:25:19.048855+00:00",
+        "formula_latex": "$\\mathrm{CH^{-}}$"
     }
 }

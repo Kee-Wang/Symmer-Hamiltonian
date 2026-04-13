@@ -8948,6 +8948,7 @@
     },
     "hf_method_fallback": "standard",
     "generation_time_s": 0.789,
-    "timestamp": "2026-04-03T22:07:24.909767+00:00"
+    "timestamp": "2026-04-03T22:07:24.909767+00:00",
+    "formula_latex": "$\\mathrm{BeH^{+}}$"
   }
 }
