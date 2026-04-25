@@ -91,11 +91,11 @@ Total electronic energies and convergence status for each method, computed from 
 
 Energy values are `null` when a method is physically inapplicable (e.g. MP2/CISD/CCSD require $\geq 2$ electrons) or when computation produced a non-finite result.
 
-**`CCSD.t1_diagnostic`** — Lee-Taylor T1 diagnostic [Lee & Taylor, *Int. J. Quantum Chem. Symp.* 23, 199 (1989)], computed as $T_1 = \|\mathbf{t}_1\|_2 / \sqrt{N_{\text{corr}}}$ from the converged CCSD singles amplitudes via PySCF's built-in `pyscf_ccsd.get_t1_diagnostic()`. Rule of thumb: $T_1 \lesssim 0.02$ suggests single-reference character; larger values indicate multi-reference character and that CCSD/CCSD(T) results should be interpreted with caution. `null` when CCSD did not converge or `t1` is unavailable. **Backwards compatibility**: JSONs generated before this field was added do not contain `t1_diagnostic`; consumers should use `.get("t1_diagnostic")`. Currently RCCSD only — the pipeline rejects open-shell systems upstream.
+**`CCSD.t1_diagnostic`** — Lee-Taylor T1 diagnostic [Lee & Taylor, *Int. J. Quantum Chem. Symp.* 23, 199 (1989)], computed as $T_1 = \|\mathbf{t}_1\|_2 / \sqrt{N_{\text{corr}}}$ from the converged CCSD singles amplitudes via PySCF's built-in `pyscf_ccsd.get_t1_diagnostic()`. Rule of thumb: $T_1 \lesssim 0.02$ suggests single-reference character; larger values indicate multi-reference character and that CCSD/CCSD(T) results should be interpreted with caution. `null` when CCSD did not converge or `t1` is unavailable. **Backwards compatibility**: JSONs generated before this field was added do not contain `t1_diagnostic`; users should access it via `.get("t1_diagnostic")`. Currently RCCSD only — the pipeline rejects open-shell systems upstream.
 
 **`CCSD._t1_diagnostic_check`** *(optional)* — audit metadata, present only when the T1 backfill produced a noteworthy result. Two shapes:
 
-1. *Branch mismatch* — the T1 value was computed on an SCF solution that does not match `CCSD.energy` (the recomputed RHF found a lower-energy branch than the originally-stored one). The `t1_diagnostic` value reflects the recomputed branch, not the stored CCSD wavefunction. Consumers comparing T1 with `CCSD.energy` should treat these cases with care.
+1. *Branch mismatch* — the T1 value was computed on an SCF solution that does not match `CCSD.energy` (the recomputed RHF found a lower-energy branch than the originally-stored one). The `t1_diagnostic` value reflects the recomputed branch, not the stored CCSD wavefunction. Users comparing T1 with `CCSD.energy` should treat these cases with care.
    ```json
    "_t1_diagnostic_check": {
      "branch_match": false,
@@ -129,7 +129,7 @@ All numerical fields are stored at full Python `float` precision (~17 significan
 | `_t1_diagnostic_check.recalculated_*_energy` | same as `HF.energy` / `CCSD.energy` | $\sim 10^{-6}$ Ha (limited by SCF) |
 | `_t1_diagnostic_check.delta_*_ha` | difference of two $\sim 10^{-6}$ values | $\sim 10^{-6}$ Ha |
 
-**Why the full repr is stored.** PySCF returns `float` objects at native precision; rounding requires explicit code. The convention across this dataset is to round-trip values as PySCF emits them. Consumers needing reproducible diffs across machines should round to the meaningful precision themselves.
+**Why the full repr is stored.** PySCF returns `float` objects at native precision; rounding requires explicit code. The convention across this dataset is to round-trip values as PySCF emits them. Users needing reproducible diffs across machines should round to the meaningful precision themselves.
 
 **JSON formatting note.** Python's `json` module auto-switches to scientific notation for values where the magnitude requires it (e.g., `7.0e-17` for `t1_diagnostic` of an exact-Brillouin system; `0.00792` for typical equilibrium values). Both representations parse to identical `float`s; the visual difference is purely `repr()` behavior.
 
@@ -151,7 +151,7 @@ Named auxiliary operators in Pauli form, each a dictionary mapping Pauli strings
 | `S^2_operator` | Total spin-squared operator $\hat{S}^2$ |
 | `UCCSD_operator` | UCCSD ansatz generator $-i(T - T^\dagger)$ (absent when CCSD did not converge or when the system has no correlated excitation space, e.g. single-spatial-orbital systems) |
 
-**Note:** He/STO-3G has one spatial orbital (no virtual orbitals), so CCSD amplitudes are trivially zero and `UCCSD_operator` is absent despite CCSD converging. Consumers should use `.get("UCCSD_operator")` to handle its absence gracefully.
+**Note:** He/STO-3G has one spatial orbital (no virtual orbitals), so CCSD amplitudes are trivially zero and `UCCSD_operator` is absent despite CCSD converging. Users should access it via `.get("UCCSD_operator")` to handle its absence gracefully.
 
 **Coefficient format:** `UCCSD_operator` is the Hermitian generator $-i(T - T^\dagger)$. Since Hermitian operators have real coefficients in the Pauli basis, all values are stored as plain floats (same format as the Hamiltonian).
 
