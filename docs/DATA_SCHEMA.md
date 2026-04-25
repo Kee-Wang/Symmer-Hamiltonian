@@ -113,6 +113,26 @@ Energy values are `null` when a method is physically inapplicable (e.g. MP2/CISD
    ```
    `stage` is `"scf"` or `"ccsd"`. This concentrates at $\alpha \geq 2.5$ stretched geometries where post-SCF methods are pathological.
 
+#### Numerical Precision
+
+All numerical fields are stored at full Python `float` precision (~17 significant digits via `json.dumps(float)`). The *meaningful* precision is set by the convergence tolerances of the underlying PySCF solvers, listed below. **Trailing digits beyond the meaningful precision are not reproducible across BLAS configurations, thread counts, or DIIS history** and should not be interpreted as physics.
+
+| Field | Solver tolerance | Meaningful precision |
+|---|---|---|
+| `convergence_threshold` (top-level field) | — | exact: SCF `conv_tol` actually used (currently $10^{-6}$ Ha for all files) |
+| `HF.energy` | SCF `conv_tol = 1e-6` | $\sim 10^{-6}$ Ha |
+| `MP2.energy` | analytic from converged SCF | $\sim 10^{-7}$ Ha (inherits SCF precision; correlation energy itself is much tighter) |
+| `CISD.energy` | CI eigensolver default | $\sim 10^{-6}$ Ha |
+| `CCSD.energy` | CCSD `conv_tol = 1e-7`, `conv_tol_normt = 1e-5` | $\sim 10^{-7}$ Ha |
+| `CCSD.t1_diagnostic` | derived from converged $t_1$ amplitudes | $\sim 10^{-6}$ |
+| `FCI.energy` | FCI eigensolver default | $\sim 10^{-7}$ Ha (looser when `oscillatory_converged: true`; see `oscillation_energy_change`) |
+| `_t1_diagnostic_check.recalculated_*_energy` | same as `HF.energy` / `CCSD.energy` | $\sim 10^{-6}$ Ha (limited by SCF) |
+| `_t1_diagnostic_check.delta_*_ha` | difference of two $\sim 10^{-6}$ values | $\sim 10^{-6}$ Ha |
+
+**Why the full repr is stored.** PySCF returns `float` objects at native precision; rounding requires explicit code. The convention across this dataset is to round-trip values as PySCF emits them. Consumers needing reproducible diffs across machines should round to the meaningful precision themselves.
+
+**JSON formatting note.** Python's `json` module auto-switches to scientific notation for values where the magnitude requires it (e.g., `7.0e-17` for `t1_diagnostic` of an exact-Brillouin system; `0.00792` for typical equilibrium values). Both representations parse to identical `float`s; the visual difference is purely `repr()` behavior.
+
 **FCI-specific fields:**
 - `spin_matches_target` — `true` if the FCI ground state has the target spin multiplicity
 - `multiplicity` — spin multiplicity of the actual FCI ground state (may differ from target)
