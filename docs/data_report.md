@@ -64,7 +64,7 @@ The stage that succeeded is recorded in the `hf_method_fallback` field of each H
 
 For dissociation curves, geometries are processed in order of increasing distance from equilibrium.  The converged density matrix from the previous geometry is used as the initial guess for the next, providing continuity of the electronic state and significantly improving SCF convergence at stretched geometries.
 
-**Backfill audit results.** When `t1_diagnostic` was retrofitted to existing JSONs, an independent DM-propagation sweep was run. The script attached `_t1_diagnostic_check` to two cohorts:
+**Backfill audit results.** When `t1_diagnostic` was retrofitted to existing JSONs (via `Symmer-Hamiltonian-Code/toolchain/backfill_t1_diagnostic.py`), an independent DM-propagation sweep was run. The script attached `_t1_diagnostic_check` to two cohorts:
 
 - **116 files (~2.2%)** with `branch_match: false`: the recomputed RHF and CCSD energies differ from the originally-stored values; the deltas are recorded per file as `delta_hf_ha` and `delta_ccsd_ha`. Concentrated at $\alpha \geq 1.5$.
 - **482 files (~9.1%)** with `recompute_failed: true, stage: "ccsd"`: the independent CCSD did not converge. Concentrated at $\alpha \geq 2.5$.
