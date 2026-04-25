@@ -68,7 +68,7 @@ Each Hamiltonian file has the following structure (H2 / STO-3G at equilibrium sh
       "HF":   {"energy": -1.117, "converged": true},
       "MP2":  {"energy": -1.130, "converged": null},
       "CISD": {"energy": -1.137, "converged": true},
-      "CCSD": {"energy": -1.137, "converged": true},
+      "CCSD": {"energy": -1.137, "converged": true, "t1_diagnostic": 0.000},
       "FCI":  {"energy": -1.137, "converged": true,
                "spin_matches_target": true, "multiplicity": 1.0,
                "oscillatory_converged": false, "oscillation_energy_change": null}
@@ -137,7 +137,7 @@ Each Hamiltonian is produced by a six-stage pipeline:
 1. **Geometry sourcing** from [NIST CCCBDB](https://github.com/Kee-Wang/NIST-CCCBDB-database-mirror), PennyLane, or Symmer reference collections; species are included only if the tapered qubit count is ≤ 20
 2. **Geometry scaling** — for multi-atom species, the equilibrium geometry is uniformly scaled by $\alpha \in \{0.5, 0.7, 0.8, 0.9, 1.0, 1.2, 1.5, 2.0, 2.5, 3.0\}$ to sample the dissociation coordinate; density-matrix propagation between $\alpha$ points ensures SCF continuity
 3. **Hartree-Fock SCF** with a three-stage convergence cascade (DIIS $\rightarrow$ level-shift $\rightarrow$ Newton)
-4. **Post-HF correlation** at MP2, CISD, CCSD, and FCI levels via PySCF
+4. **Post-HF correlation** at MP2, CISD, CCSD (with T1 diagnostic), and FCI levels via PySCF
 5. **Jordan-Wigner encoding** via Symmer
 6. **Qubit tapering metadata** — $\mathbb{Z}_2$ symmetry analysis records achievable tapered qubit counts; stored Hamiltonians remain in the full untapered form
 

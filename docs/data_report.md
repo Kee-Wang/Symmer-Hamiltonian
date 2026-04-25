@@ -44,7 +44,7 @@ Each Hamiltonian in this database is produced by the following pipeline:
    CCCBDB calculated geometries are deprioritised because HF/STO-3G is the lowest rung of ab initio theory and can produce bond-length errors exceeding 10% (e.g. $\mathrm{H_3^+}$: HF/STO-3G gives $R_{\mathrm{H\text{-}H}} = 0.986$ Å vs experimental $0.873$ Å). PennyLane's coupled-cluster geometries are near-exact (typically $< 0.003$ Å MAE). Per-species geometry provenance is recorded in the `geometry_from` and `geometry_source` fields of [`species_list.json`](../data/singlet/species_list.json). Each Hamiltonian is self-consistent: all computed energies (HF, MP2, CISD, CCSD, FCI) are evaluated at the same geometry stored in the file.
 2. **Geometry scaling.** For multi-atom species, the equilibrium geometry is uniformly scaled by a factor $\alpha \in \{0.5, 0.7, 0.8, 0.9, 1.0, 1.2, 1.5, 2.0, 2.5, 3.0\}$ to sample the dissociation coordinate. Single-atom species use $\alpha = 1.0$ only.
 3. **Self-consistent field (SCF) calculation.** A restricted Hartree-Fock calculation is performed using PySCF with a three-stage convergence cascade (see Section 2.2).
-4. **Post-Hartree-Fock methods.** Starting from the converged HF orbitals, the following correlated methods are run in sequence: MP2, CISD, CCSD, and FCI (full configuration interaction).  FCI provides the exact energy within the chosen basis set and serves as the ground-truth reference for quantum-algorithm benchmarks.
+4. **Post-Hartree-Fock methods.** Starting from the converged HF orbitals, the following correlated methods are run in sequence: MP2, CISD, CCSD (with T1 diagnostic), and FCI (full configuration interaction).  FCI provides the exact energy within the chosen basis set and serves as the ground-truth reference for quantum-algorithm benchmarks.
 5. **Jordan-Wigner encoding.** The second-quantised fermionic Hamiltonian is mapped to a qubit Hamiltonian via the Jordan-Wigner transformation, implemented by Symmer.
 6. **Qubit tapering metadata.** $\mathbb{Z}_2$ symmetries of the qubit Hamiltonian are identified via Symmer; the achievable tapered qubit count is recorded as metadata in [`species_list.json`](../data/singlet/species_list.json). Only species with tapered qubit count ≤ 20 are included in the dataset. The stored Hamiltonians remain in the full, untapered Jordan-Wigner form.
 
@@ -63,6 +63,13 @@ The stage that succeeded is recorded in the `hf_method_fallback` field of each H
 ### 2.3 Density-Matrix Propagation
 
 For dissociation curves, geometries are processed in order of increasing distance from equilibrium.  The converged density matrix from the previous geometry is used as the initial guess for the next, providing continuity of the electronic state and significantly improving SCF convergence at stretched geometries.
+
+**Backfill audit results.** When `t1_diagnostic` was retrofitted to existing JSONs, an independent DM-propagation sweep was run. The script attached `_t1_diagnostic_check` to two cohorts:
+
+- **116 files (~2.2%)** with `branch_match: false`: the recomputed RHF and CCSD energies differ from the originally-stored values; the deltas are recorded per file as `delta_hf_ha` and `delta_ccsd_ha`. Concentrated at $\alpha \geq 1.5$.
+- **482 files (~9.1%)** with `recompute_failed: true, stage: "ccsd"`: the independent CCSD did not converge. Concentrated at $\alpha \geq 2.5$.
+
+See `_t1_diagnostic_check` in [DATA_SCHEMA.md](DATA_SCHEMA.md) for the per-file audit object schema.
 
 [&uarr; Back to Contents](#contents)
 

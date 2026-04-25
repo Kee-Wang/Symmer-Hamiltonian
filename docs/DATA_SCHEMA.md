@@ -75,7 +75,7 @@ Total electronic energies and convergence status for each method, computed from 
   "HF":   {"energy": -1.117, "converged": true},
   "MP2":  {"energy": -1.143, "converged": null},
   "CISD": {"energy": -1.148, "converged": true},
-  "CCSD": {"energy": -1.149, "converged": true, "t1_diagnostic": 0.0089},
+  "CCSD": {"energy": -1.149, "converged": true, "t1_diagnostic": 0.000},
   "FCI":  {"energy": -1.151, "converged": true, "spin_matches_target": true, "multiplicity": 1.0,
            "oscillatory_converged": false, "oscillation_energy_change": null}
 }
@@ -92,6 +92,26 @@ Total electronic energies and convergence status for each method, computed from 
 Energy values are `null` when a method is physically inapplicable (e.g. MP2/CISD/CCSD require $\geq 2$ electrons) or when computation produced a non-finite result.
 
 **`CCSD.t1_diagnostic`** — Lee-Taylor T1 diagnostic [Lee & Taylor, *Int. J. Quantum Chem. Symp.* 23, 199 (1989)], computed as $T_1 = \|\mathbf{t}_1\|_2 / \sqrt{N_{\text{corr}}}$ from the converged CCSD singles amplitudes via PySCF's built-in `pyscf_ccsd.get_t1_diagnostic()`. Rule of thumb: $T_1 \lesssim 0.02$ suggests single-reference character; larger values indicate multi-reference character and that CCSD/CCSD(T) results should be interpreted with caution. `null` when CCSD did not converge or `t1` is unavailable. **Backwards compatibility**: JSONs generated before this field was added do not contain `t1_diagnostic`; consumers should use `.get("t1_diagnostic")`. Currently RCCSD only — the pipeline rejects open-shell systems upstream.
+
+**`CCSD._t1_diagnostic_check`** *(optional)* — audit metadata, present only when the T1 backfill produced a noteworthy result. Two shapes:
+
+1. *Branch mismatch* — the T1 value was computed on an SCF solution that does not match `CCSD.energy` (the recomputed RHF found a lower-energy branch than the originally-stored one). The `t1_diagnostic` value reflects the recomputed branch, not the stored CCSD wavefunction. Consumers comparing T1 with `CCSD.energy` should treat these cases with care.
+   ```json
+   "_t1_diagnostic_check": {
+     "branch_match": false,
+     "recalculated_hf_energy": -54.069,
+     "recalculated_ccsd_energy": -54.103,
+     "delta_hf_ha":   -0.500,
+     "delta_ccsd_ha": -0.490
+   }
+   ```
+   `delta_*_ha = recalculated - stored`, so negative delta indicates the recompute found a lower-energy state. This flag concentrates in stretched-bond anion species (CH⁻, HN, F2H⁻, etc. at $\alpha \geq 1.5$) where RHF has multiple solutions.
+
+2. *Recompute failed* — independent SCF or CCSD did not converge during the backfill, so `t1_diagnostic` is `null`. Distinguishes "we tried and failed" from "original CCSD never ran".
+   ```json
+   "_t1_diagnostic_check": {"recompute_failed": true, "stage": "ccsd"}
+   ```
+   `stage` is `"scf"` or `"ccsd"`. This concentrates at $\alpha \geq 2.5$ stretched geometries where post-SCF methods are pathological.
 
 **FCI-specific fields:**
 - `spin_matches_target` — `true` if the FCI ground state has the target spin multiplicity
