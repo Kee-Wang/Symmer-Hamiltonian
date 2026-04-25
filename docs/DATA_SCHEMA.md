@@ -75,7 +75,7 @@ Total electronic energies and convergence status for each method, computed from 
   "HF":   {"energy": -1.117, "converged": true},
   "MP2":  {"energy": -1.143, "converged": null},
   "CISD": {"energy": -1.148, "converged": true},
-  "CCSD": {"energy": -1.149, "converged": true},
+  "CCSD": {"energy": -1.149, "converged": true, "t1_diagnostic": 0.0089},
   "FCI":  {"energy": -1.151, "converged": true, "spin_matches_target": true, "multiplicity": 1.0,
            "oscillatory_converged": false, "oscillation_energy_change": null}
 }
@@ -90,6 +90,8 @@ Total electronic energies and convergence status for each method, computed from 
 | `FCI` | Full configuration interaction (exact within basis) |
 
 Energy values are `null` when a method is physically inapplicable (e.g. MP2/CISD/CCSD require $\geq 2$ electrons) or when computation produced a non-finite result.
+
+**`CCSD.t1_diagnostic`** — Lee-Taylor T1 diagnostic [Lee & Taylor, *Int. J. Quantum Chem. Symp.* 23, 199 (1989)], computed as $T_1 = \|\mathbf{t}_1\|_2 / \sqrt{N_{\text{corr}}}$ from the converged CCSD singles amplitudes via PySCF's built-in `pyscf_ccsd.get_t1_diagnostic()`. Rule of thumb: $T_1 \lesssim 0.02$ suggests single-reference character; larger values indicate multi-reference character and that CCSD/CCSD(T) results should be interpreted with caution. `null` when CCSD did not converge or `t1` is unavailable. **Backwards compatibility**: JSONs generated before this field was added do not contain `t1_diagnostic`; consumers should use `.get("t1_diagnostic")`. Currently RCCSD only — the pipeline rejects open-shell systems upstream.
 
 **FCI-specific fields:**
 - `spin_matches_target` — `true` if the FCI ground state has the target spin multiplicity
