@@ -1673,7 +1673,15 @@
       },
       "CCSD": {
         "energy": -1.9516660822188219,
-        "converged": true
+        "converged": true,
+        "t1_diagnostic": 0.25236491200754174,
+        "_t1_diagnostic_check": {
+          "branch_match": false,
+          "recalculated_hf_energy": -1.5890803952984467,
+          "recalculated_ccsd_energy": -1.951766752177063,
+          "delta_hf_ha": -5.137577208103039e-07,
+          "delta_ccsd_ha": -0.00010066995824109526
+        }
       },
       "FCI": {
         "energy": -1.9838725493272256,

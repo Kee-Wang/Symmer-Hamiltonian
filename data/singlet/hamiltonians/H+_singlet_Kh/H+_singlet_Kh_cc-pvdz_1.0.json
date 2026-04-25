@@ -206,7 +206,8 @@
       },
       "CCSD": {
         "energy": null,
-        "converged": false
+        "converged": false,
+        "t1_diagnostic": null
       },
       "FCI": {
         "energy": 0.0,

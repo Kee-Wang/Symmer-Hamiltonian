@@ -683,7 +683,8 @@
       },
       "CCSD": {
         "energy": -126.79037968641369,
-        "converged": true
+        "converged": true,
+        "t1_diagnostic": 0.01278815575448371
       },
       "FCI": {
         "energy": -126.7903796868099,
