@@ -122,12 +122,11 @@ All numerical fields are stored at full Python `float` precision (~17 significan
 | `convergence_threshold` (top-level field) | — | exact: SCF `conv_tol` actually used (currently $10^{-6}$ Ha for all files) |
 | `HF.energy` | SCF `conv_tol = 1e-6` | $\sim 10^{-6}$ Ha |
 | `MP2.energy` | analytic from converged SCF | $\sim 10^{-7}$ Ha (inherits SCF precision; correlation energy itself is much tighter) |
-| `CISD.energy` | CI eigensolver default | $\sim 10^{-6}$ Ha |
+| `CISD.energy` | CI `conv_tol = 1e-9` (limited by SCF $10^{-6}$) | $\sim 10^{-6}$ Ha |
 | `CCSD.energy` | CCSD `conv_tol = 1e-7`, `conv_tol_normt = 1e-5` | $\sim 10^{-7}$ Ha |
 | `CCSD.t1_diagnostic` | derived from converged $\mathbf{t}_1$ amplitudes | $\sim 10^{-6}$ when $T_1$ is non-trivial; floor $\sim 10^{-15}$ for systems where $\mathbf{t}_1$ vanishes by Brillouin (e.g. $\mathrm{H_2}$/STO-3G) |
 | `FCI.energy` | FCI eigensolver default | $\sim 10^{-7}$ Ha (looser when `oscillatory_converged: true`; see `oscillation_energy_change`) |
-| `_t1_diagnostic_check.recalculated_*_energy` | same as `HF.energy` / `CCSD.energy` | $\sim 10^{-6}$ Ha (limited by SCF) |
-| `_t1_diagnostic_check.delta_*_ha` | difference of two $\sim 10^{-6}$ values | $\sim 10^{-6}$ Ha |
+| `_t1_diagnostic_check.recalculated_*_energy` and `delta_*_ha` | same as the underlying `HF.energy` / `CCSD.energy` | $\sim 10^{-6}$ Ha |
 
 **Why the full repr is stored.** PySCF returns `float` objects at native precision; the dataset round-trips values as PySCF emits them. Reproducible cross-machine diffs require rounding to the meaningful precision.
 
